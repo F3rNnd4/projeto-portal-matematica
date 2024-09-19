@@ -16,25 +16,31 @@ body {
     
 }
 
-
 header {
-    background-color:#E30613;
+    background-color: #E30613;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-top: 60px;
 }
 
-
 .logo {
-    margin-left: auto; 
+margin-left: 20px;
+margin-right: 100px;
+}
+
+.logo img {
+width: 80px;
+height: auto;
 }
 
 
 nav {
     display: flex;
     align-items: center;
+    
 }
 
 nav ul {
@@ -45,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 20px;
+    margin-left: 55px;
     position: relative;
 }
 
@@ -69,11 +75,12 @@ nav ul li ul {
     top: 100%;
     left: 0;
     background-color: #E30613;
-    ; 
     padding: 10px;
     list-style: none;
     width: 150px;
 }
+
+
 
 nav ul li:hover ul {
     display: block;
@@ -81,6 +88,7 @@ nav ul li:hover ul {
 
 nav ul li ul li {
     margin: 0;
+    padding:10px ;
 }
 
 nav ul li ul li a {
