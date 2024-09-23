@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Reset básico com a fonte do site todo*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/* Título com a calculadora*/
 .main-title {
     display: flex;
     justify-content: center;
@@ -23,9 +25,9 @@
     height: auto;
 }
 
-
+/*'Carrossel' de notícias*/
 .content-img {
-
+    
 }
 
 .main-content {
@@ -44,6 +46,23 @@
 
 }
 
-.maisNoticias {
+/*Botão para mais notícias*/
+.more-news-content {
+    text-align: center;
+    margin: 20px 0;
+}
 
+.more-news {
+    width: 350px;
+    height: 80px;
+    display: inline-block; 
+    background-color: #E30613;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    font-size: 12px;
+}
+
+.more-news:hover {
+    background-color: #c5000d;
 }
