@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.main-title h1 {
+    font-size: 24px;
+    color: #E30613;
+}
+
+.main-title img {
+    width: 35px;
+    height: auto;
+}
+
+
+.content-img {
+
+}
+
+.main-content {
+
+}
+
+.menino {
+
+}
+
+.professora {
+
+}
+
+.grafico {
+
+}
+
+.maisNoticias {
+
+}
