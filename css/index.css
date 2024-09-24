@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Reset básico com a fonte do site todo */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,22 +28,46 @@
 }
 
 /***************************/
-/* 'Carrossel' de notícias */
+/* "Carrossel" de notícias */
 /**************************/
 .news-img-content {
-
+    display: flex;
+    width: 100px;
 }
 
-.menino {
-
+.news-img-content .overlay {
+    position: absolute;
+    width: 1309px;
+    height: 353px;
+    background-color: rgba(104, 20, 19, 0.70);
+    mix-blend-mode: multiply;
 }
 
-.professora {
-
+.news-item-content {
+    position: relative;
+    display: inline-block;
 }
 
-.grafico {
+.news-item-1 img {
+    width: 345px;
+}
 
+.news-item-2 img {
+    height: 353px;
+}
+
+.news-item-3 img {
+    height: 353px;
+    width: 107px;
+}
+
+.main-content {
+    position: absolute;
+    margin-left: 15px;
+    top: 490px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
 }
 
 /*****************************/
@@ -59,7 +83,7 @@
 .more-news {
     width: 350px;
     height: 80px;
-    display: inline-block; 
+    display: inline-block;
     background-color: #E30613;
     color: white;
     display: grid;
@@ -76,9 +100,6 @@
 /**************/
 /* Calendário */
 /**************/
-.calendar-content {
-
-}
 
 .calendar-title {
     font-size: 24px;
@@ -90,7 +111,7 @@
     content: "";
     display: inline-block;
     position: absolute;
-    width: 50%; 
+    width: 50%;
     height: 1px;
     margin: 15px;
     margin-left: 45px;
