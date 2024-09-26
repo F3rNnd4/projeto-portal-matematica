@@ -113,18 +113,7 @@ h1 {
 }
 
 /* Estilos dos cartões */
-.b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
-    background-color: #e20000;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    vertical-align: top;
-}
+
 
 .b1 .card-Pereira img, .b1 .card-Matheus img, .b1 .card-Jessica img, .b1 .card-Sara img {
     width: 120px;
@@ -145,12 +134,10 @@ h1 {
 }
 
 /* Flecha inferior */
-.arrow2 {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 50px;
-    cursor: pointer;
+.b1 img.arrow {
+    height: 100px;
+    width: 100px;
+    align-items: center;
 }
 
 /* Layout responsivo */
@@ -160,7 +147,8 @@ h1 {
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
-        margin-top: 60px; /* Espaçamento adicional em telas maiores */
+        margin-top: 60px;
+        padding-right: 120px;
     }
 
     .b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
@@ -168,43 +156,18 @@ h1 {
     }
 }
 
-
-/* Seção da equipe */
-.b1 {
-    display: flex;
-    justify-content: center;  /* Centraliza os blocos */
-    align-items: center;      /* Alinha os blocos no centro verticalmente */
-    flex-wrap: nowrap;        /* Garante que os blocos fiquem em uma linha horizontal */
-    gap: 20px;                /* Espaçamento entre os blocos */
-    margin-top: 60px;         /* Espaço entre o título e os blocos */
-    overflow-x: auto;         /* Permite rolagem horizontal em telas menores, caso necessário */
-}
-
 .b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
     background-color: #e20000;
     color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 80px;
     width: 200px;
     text-align: center;
     margin: 20px 0;           /* Remove o margin lateral para evitar desalinhamento */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.b1 .card-Pereira img, .b1 .card-Matheus img, .b1 .card-Jessica img, .b1 .card-Sara img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-}
 
-/* Layout responsivo para telas menores */
-@media (max-width: 768px) {
-    .b1 {
-        flex-wrap: wrap;       /* Em telas pequenas, permite que os blocos fiquem em várias linhas */
-    }
-}
 
 /* Estilo para a seção da equipe */
 .b1 {
@@ -227,33 +190,12 @@ h1 {
 }
 
 /* Estilo dos cartões */
-.b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
-    background-color: #e20000;
-    color: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 200px;
-    text-align: center;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 
 .b1 .card-Pereira img, .b1 .card-Matheus img, .b1 .card-Jessica img, .b1 .card-Sara img {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-}
-
-/* Layout responsivo para telas menores */
-@media (max-width: 768px) {
-    .b1 {
-        flex-wrap: wrap;
-    }
-}
-
-img.arrow2{
-   margin-right: 90%;
-   
 }

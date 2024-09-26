@@ -1,308 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
-.white-bar {
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    top:0;
-    left: 0;
-    
-}
-
-header {
-    background-color: #E30613;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    margin-top: 60px;
-}
-
-.logo {
-margin-left: 20px;
-margin-right: 100px;
-}
-
-.logo img {
-width: 80px;
-height: auto;
-}
-
-
-
-nav {
-    display: flex;
-    align-items: center;
-    
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin-left: 55px;
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 5px 10px;
-}
-
-nav ul li a:hover {
-    background-color: #ffffff;
-    color:#E30613;
-    ; 
-}
-
-
-nav ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #E30613;
-    padding: 10px;
-    list-style: none;
-    width: 150px;
-}
-
-
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    margin: 0;
-    padding:10px ;
-}
-
-nav ul li ul li a {
-    padding: 5px 10px;
-    display: block;
-    color: #ffffff;
-}
-
-nav ul li ul li a:hover {
-    background-color: #ffffff;
-    color:#E30613;
-    
-}
-
-
-
-
-
-
-
-
 h1 {
+    display: block;
     text-align: center;
     margin-top: 20px; 
     font-size: 2.5em; 
-}
-
-
-
-.b1 h1 {
-    text-align: center;
-    margin-top: 10%;
-}
-
-.card-Fernanda {
-
-    margin-top: 1%;
-    margin: 5%;
-    text-align: center;
-    background-color: #e30613;
-    border-radius: 10px;
-    width: 400px;
-    padding: 100px;
-    color: white;
-    height: 600px;
-    margin-left: -500px;
-    margin-top: 100px;
-    font-size: 20px;
-
-
-
-}
-
-img {
-    border-radius: 50%;
-    max-height: 300px;
-    width: 300px;
-    margin-left: -45px;
-    margin-right: 10%;
-    margin-top: -45px;
-    padding: 20px;
-
-
-}
-
-
-h3.p {
-
-    text-align: center;
-    font-size: 100px;
-
-}
-
-
-
-
-.card-Vinicius{
-
-    margin-top: 10%;
-    margin: 5%;
-    text-align: center;
-    background-color: #e30613;
-    border-radius: 10px;
-    width: 400px;
-    padding: 100px;
-    color: white;
-    height: 600px;
-    margin-left: 10px;
-    margin-top: -620px;
-
-
-
-}
-
-img {
-    border-radius: 50%;
-    max-height: 300px;
-    width: 300px;
-    margin-left: -45px;
-    margin-right: 10%;
-    margin-top: -45px;
-    padding: 20px;
-
-
-}
-
-
-h3.p {
-
-    text-align: center;
-    padding: 0 px;
-
-}
-
-.b1{
-    margin-left: 500px;
-}
-
-.arrow{ 
- padding-left: 1300px;
- 
-}
-
-.card-Fernanda h3{
-    padding-top: 30px;
-}
-
-.card-Fernanda p{
-    padding-top: 20px;
-}
-
-
-div.card-Fernanda p{
-
-    padding-left: 1px;
-
-}
-
-.b1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh; 
-}
-
-.card-Fernanda, .card-Vinicius {
-    margin: 20px;
-    text-align: center;
-    background-color: #e30613;
-    border-radius: 10px;
-    width: 400px;
-    padding: 100px;
-    color: white;
-    height: 600px;
-    font-size: 20px;
-}
-
-
-
-
-.arrow {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-.b1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh; 
-}
-
-.card-Fernanda, .card-Vinicius {
-    margin: 20px;
-    text-align: center;
-    background-color: #e30613;
-    border-radius: 10px;
-    width: 400px;
-    padding: 50px 20px; 
-    color: white;
-    height: 600px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
-}
-
-.card-Fernanda img, .card-Vinicius img {
-    border-radius: 50%;
-    max-height: 300px;
-    width: 300px;
-    margin: 0 auto; 
-}
-
-.arrow {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.card-Fernanda h3, .card-Vinicius h3, .card-Fernanda p, .card-Vinicius p {
-    margin-top: 20px;
-}
-.b1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh; 
+    padding: 0;
 }
 
 .card-Fernanda, .card-Vinicius {
@@ -319,6 +26,7 @@ div.card-Fernanda p{
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center;
+    margin-top: -170px;
 }
 
 .card-Fernanda img, .card-Vinicius img {
@@ -328,15 +36,7 @@ div.card-Fernanda p{
     margin: 0; 
 }
 
-.card-Fernanda h3, .card-Vinicius h3, .card-Fernanda p, .card-Vinicius p {
-    margin-top: 20px;
-}
 
-.arrow {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
 .b1 {
     display: flex;
@@ -344,29 +44,7 @@ div.card-Fernanda p{
     align-items: center;
     margin: 0;
     height: 100vh; 
-}
-
-.card-Fernanda, .card-Vinicius {
-    margin: 20px;
-    text-align: center;
-    background-color: #e30613;
-    border-radius: 10px;
-    width: 400px;
-    padding: 50px 20px; 
-    color: white;
-    height: 600px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    align-items: center;
-}
-
-.card-Fernanda img, .card-Vinicius img {
-    border-radius: 50%;
-    max-height: 300px;
-    width: 300px;
-    margin: 0; 
+    padding-left: 120px;
 }
 
 .card-Fernanda h3, .card-Vinicius h3,
@@ -376,25 +54,19 @@ div.card-Fernanda p{
     padding: 0;
 }
 
-.arrow {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+
+.b1 img.arrow {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin-top: -200px;
 }
 
-/* Estilo para o texto "P.O" e "SCRUM MASTER" */
 .role {
     font-size: 1.5em;
     font-weight: bold;
     color: white;
-    margin-bottom: 20px; /* Espaçamento entre o texto e a imagem */
+    margin-bottom: 20px;
     text-align: center;
 }
-
-
-
-
-
-
-
 
