@@ -42,7 +42,8 @@ height: auto;
 nav {
     display: flex;
     align-items: center;
-    
+    position: relative;
+    z-index: 200;
 }
 
 nav ul {
