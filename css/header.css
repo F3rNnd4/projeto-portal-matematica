@@ -39,7 +39,7 @@ height: auto;
 }
 
 
-nav {
+.nav {
     display: flex;
     align-items: center;
     position: relative;
@@ -56,6 +56,7 @@ nav ul {
 nav ul li {
     margin-left: 55px;
     position: relative;
+    z-index: 200;
 }
 
 nav ul li a {
@@ -68,9 +69,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #ffffff;
     color:#E30613;
-    ; 
 }
-
 
 nav ul li ul {
     display: none;
@@ -82,8 +81,6 @@ nav ul li ul {
     list-style: none;
     width: 150px;
 }
-
-
 
 nav ul li:hover ul {
     display: block;
