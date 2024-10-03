@@ -1,7 +1,16 @@
-*{
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
 }
 
 footer {
@@ -68,3 +77,4 @@ footer {
 footer {
     width: 100%;
 }
+
