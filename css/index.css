@@ -1,5 +1,130 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset básico com a fonte do site todo */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*****************************/
+/* Título com a calculadora */
+/****************************/
+.main-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.main-title h1 {
+    font-size: 24px;
+    color: #E30613;
+}
+
+.main-title img {
+    width: 35px;
+    height: auto;
+}
+
+/***************************/
+/* Notícias da página Home */
+/**************************/
+.news-img-content {
+    display: flex;
+    width: 100px;
+}
+
+.news-img-content .overlay {
+    position: absolute;
+    width: 2105px;
+    height: 409px;
+    background-color: rgba(104, 20, 19, 0.70);
+    mix-blend-mode: multiply;
+    z-index: 5;
+}
+
+.news-item-content {
+    position: relative;
+    display: inline-block;
+}
+
+.news-item-1 img {
+    width: 400px;
+}
+
+.news-item-2 img {
+    height: 409px;
+}
+
+.news-item-3 img {
+    height: 408px;
+    width: auto;
+}
+
+.main-content {
+    position: absolute;
+    z-index: 100;
+    margin-left: 15px;
+    top: 540px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/*****************************/
+/* Botão para mais notícias */
+/****************************/
+.more-news-content {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.more-news {
+    width: 350px;
+    height: 80px;
+    display: inline-block;
+    background-color: #E30613;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.more-news:hover {
+    background-color: #c5000d;
+}
+
+/**************/
+/* Calendário */
+/**************/
+
+.calendar-title {
+    font-size: 24px;
+    color: #E30613;
+    margin-left: 20px;
+}
+
+.calendar-title:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    margin: 15px;
+    margin-left: 45px;
+    background-color: #E30613;
+}
+
+.calendar-content img {
+    width: 1800px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

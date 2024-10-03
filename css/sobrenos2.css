@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Barra branca superior */
+.white-bar {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #E30613;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+/* Logo */
+.logo {
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 55px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #E30613;
+}
+
+/* Dropdown */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #E30613;
+    padding: 10px;
+    list-style: none;
+    width: 150px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li ul li a {
+    padding: 5px 10px;
+    display: block;
+    color: #ffffff;
+}
+
+nav ul li ul li a:hover {
+    background-color: #ffffff;
+    color: #E30613;
+}
+
+/* Seção da equipe */
+.b1 {
+    text-align: center;
+    margin-top: 60px; /* Aumenta o espaço entre o título e os blocos */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* Estilos dos cartões */
+
+
+.b1 .card-Pereira img, .b1 .card-Matheus img, .b1 .card-Jessica img, .b1 .card-Sara img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.b1 h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.b1 p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Flecha inferior */
+.b1 img.arrow {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+/* Layout responsivo */
+@media (min-width: 768px) {
+    .b1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 60px;
+        padding-right: 120px;
+    }
+
+    .b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
+        width: 250px;
+    }
+}
+
+.b1 .card-Pereira, .b1 .card-Matheus, .b1 .card-Jessica, .b1 .card-Sara {
+    background-color: #e20000;
+    color: white;
+    border-radius: 10px;
+    padding: 80px;
+    width: 200px;
+    text-align: center;
+    margin: 20px 0;           /* Remove o margin lateral para evitar desalinhamento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Estilo para a seção da equipe */
+.b1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-top: 20px; /* Menor margem superior para aproximar dos blocos */
+    overflow-x: auto;
+}
+
+/* Ajuste para o título da equipe */
+.equipe-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Margem inferior para espaçar do topo */
+    text-transform: uppercase;
+}
+
+/* Estilo dos cartões */
+
+
+.b1 .card-Pereira img, .b1 .card-Matheus img, .b1 .card-Jessica img, .b1 .card-Sara img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
