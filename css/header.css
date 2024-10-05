@@ -6,7 +6,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-
+/* Barra branca superior */
 .white-bar {
     background-color: rgb(255, 255, 255);
     height: 60px;
@@ -17,7 +17,7 @@ body {
     left: 0;
     
 }
-
+/* Estilo do cabeçalho */
 header {
     background-color: #E30613;
     color: #ffffff;
@@ -28,6 +28,7 @@ header {
     margin-top: 60px;
 }
 
+/* Logo */
 .logo {
 margin-left: 20px;
 margin-right: 100px;
@@ -38,7 +39,7 @@ width: 80px;
 height: auto;
 }
 
-
+/* Navegação */
 .nav {
     display: flex;
     align-items: center;
@@ -71,6 +72,7 @@ nav ul li a:hover {
     color:#E30613;
 }
 
+/* Dropdown */
 nav ul li ul {
     display: none;
     position: absolute;
