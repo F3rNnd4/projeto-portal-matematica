@@ -6,11 +6,31 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+}
+
+.arrow2 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+
+
+}
+
 /* Seção da equipe */
 .b1 {
     text-align: center;
-    margin-top: 60px;
-    /* Aumenta o espaço entre o título e os blocos */
 }
 
 h1 {

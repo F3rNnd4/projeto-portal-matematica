@@ -6,17 +6,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Barra branca superior */
-.white-bar {
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    top:0;
-    left: 0;
-    
-}
 /* Estilo do cabeçalho */
 header {
     background-color: #E30613;
@@ -28,10 +17,18 @@ header {
     margin-top: 60px;
 }
 
-/* Logo */
 .logo {
-margin-left: 20px;
-margin-right: 100px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
+}
+
+.icone {
+    width: 2rem;
+    height: auto;
+    border-radius: 50%; 
+    cursor: pointer;
 }
 
 .logo img {
@@ -103,4 +100,11 @@ nav ul li ul li a:hover {
     background-color: #ffffff;
     color:#E30613;
     ; 
+}
+
+.noturno {
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
 }

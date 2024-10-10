@@ -6,12 +6,18 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2.5em;
-    padding: 0;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    margin: 3rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.titulo h1 {
+    font-size: 2rem;
 }
 
 .card-Fernanda,
@@ -62,8 +68,10 @@ h1 {
 .b1 img.arrow {
     height: 100px;
     width: 100px;
+    display: flex;
     align-items: center;
-    margin-top: -200px;
+    margin-left: 50px;
+
 }
 
 .role {
