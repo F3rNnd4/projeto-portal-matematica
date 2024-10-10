@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
+.texto {
+    color: black;
+}
+
 .tips-arrow {
     display: flex;
     justify-content: flex-start;
