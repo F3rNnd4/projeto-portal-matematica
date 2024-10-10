@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
+* {
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+}
+.tips-arrow {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tips-arrow img{
+    width: 6.25rem;
 }
 
 .tips {
     font-size: 0.9rem;
     color: #E30613;
-    margin: 20px;
+    margin: 30px;
 }
 
 .tips-title:after {
     content: "";
     display: inline-block;
     position: absolute;
-    width: 50%;
+    width: 70%;
     height: 1px;
     margin: 14px;
     margin-left: 45px;
@@ -31,15 +38,17 @@ main {
 
 .tip1, .tip2, .tip3 {
     width: 100%;
-    height: 38rem;
+    height: 39rem;
     background-color: #F8F7F4;
     border-radius: 1.25rem;
+    margin-bottom: 2rem;
 }
 
 .tip1 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
+    margin-bottom: 2rem;
 }
 
 .tip2 .img-tips img {
@@ -63,20 +72,22 @@ main {
     margin: 0 0 0 5rem;
 }
 
-.botao button {
-    border: none;
-    font-weight: bold;
+.botao a, button{
     width: 80%;
     height: 2rem;
+    border: none;
     border-radius: 1.25rem;
-    color: white;
     background-color: #E30613;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
 }
 
 .botao button:hover {
     background-color: #b30612;
+    width: 100%;
 }
 
-.tips-arrow {
-    width: 6.25rem;
-}
