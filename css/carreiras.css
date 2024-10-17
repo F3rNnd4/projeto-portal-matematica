@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     align-items: center;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.219);
+    height: 38rem;
     padding: 2rem;
 
 }
@@ -86,6 +87,34 @@ body {
 }
 
 .analista-button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.analista-button12 {
+    background-color: #e30613;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 20rem;
+    color: rgb(255, 255, 255);
+    height: 57.47px;
+    text-decoration: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+}
+
+.analista-button2 {
+    
+        display: flex;
+        height: 10rem;
+        justify-content: center;
+        align-items: flex-start;
+    
+}
+
+.analista-button2 a {
     text-decoration: none;
     color: white;
 }
