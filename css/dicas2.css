@@ -5,23 +5,20 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.texto {
-    color: black;
-}
-
 .tips-arrow {
     display: flex;
     justify-content: flex-start;
+    padding: 0 0 0 1rem;
 }
 
-.tips-arrow img{
+.tips-arrow img {
     width: 6.25rem;
 }
 
 .tips {
     font-size: 0.9rem;
     color: #E30613;
-    margin: 30px;
+    margin: 1.85rem;
 }
 
 .tips-title:after {
@@ -29,9 +26,8 @@
     display: inline-block;
     position: absolute;
     width: 70%;
-    height: 1px;
-    margin: 14px;
-    margin-left: 45px;
+    height: 0.06rem;
+    margin: 0.8rem 0 0 2.8rem;
     background-color: #E30613;
 }
 
@@ -41,28 +37,27 @@ main {
     align-items: center;
 }
 
-.tip1, .tip2, .tip3 {
+.tip4, .tip5, .tip6 {
+    background-color: aquamarine;
     width: 100%;
     height: 39rem;
-    background-color: #F8F7F4;
     border-radius: 1.25rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 0 0;
 }
 
-.tip1 .img-tips img {
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 100%;
-    height: 20rem;
-    margin-bottom: 2rem;
-}
-
-.tip2 .img-tips img {
+.tip4 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
 }
 
-.tip3 .img-tips img {
+.tip5 .img-tips img {
+    border-radius: 1.25rem 1.25rem 0 0;
+    width: 100%;
+    height: 20rem;
+}
+
+.tip6 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
@@ -74,10 +69,10 @@ main {
 }
 
 .information-tips {
-    margin: 0 0 0 5rem;
+    margin: 0 0 2rem 5rem;
 }
 
-.botao a, button{
+.botao a, button {
     width: 80%;
     height: 2rem;
     border: none;
@@ -85,7 +80,7 @@ main {
     background-color: #E30613;
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: bold;
     display: block;
     margin: 0 auto;
