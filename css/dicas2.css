@@ -8,7 +8,7 @@
 .tips-arrow {
     display: flex;
     justify-content: flex-start;
-    padding: 0 0 0 1rem;
+    padding: 0 1rem 0 0;
 }
 
 .tips-arrow img {
@@ -18,7 +18,7 @@
 .tips {
     font-size: 0.9rem;
     color: #E30613;
-    margin: 1.85rem;
+    margin: 30px;
 }
 
 .tips-title:after {
@@ -37,27 +37,29 @@ main {
     align-items: center;
 }
 
-.tip4, .tip5, .tip6 {
-    background-color: aquamarine;
+.tip1,
+.tip2,
+.tip3 {
     width: 100%;
-    height: 39rem;
+    height: 40rem;
+    background-color: #F8F7F4;
     border-radius: 1.25rem;
     margin: 2rem 0 0 0;
 }
 
-.tip4 .img-tips img {
+.tip1 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
 }
 
-.tip5 .img-tips img {
+.tip2 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
 }
 
-.tip6 .img-tips img {
+.tip3 .img-tips img {
     border-radius: 1.25rem 1.25rem 0 0;
     width: 100%;
     height: 20rem;
@@ -72,7 +74,8 @@ main {
     margin: 0 0 2rem 5rem;
 }
 
-.botao a, button {
+.botao a,
+button {
     width: 80%;
     height: 2rem;
     border: none;
