@@ -11,7 +11,7 @@
     padding: 0 1rem 0 0;
 }
 
-.tips-arrow img{
+.tips-arrow img {
     width: 6.25rem;
 }
 
@@ -37,7 +37,9 @@ main {
     align-items: center;
 }
 
-.tip1, .tip2, .tip3 {
+.tip1,
+.tip2,
+.tip3 {
     width: 100%;
     height: 40rem;
     background-color: #F8F7F4;
@@ -72,7 +74,8 @@ main {
     margin: 0 0 2rem 5rem;
 }
 
-.botao a, button{
+.botao a,
+button {
     width: 80%;
     height: 2rem;
     border: none;
