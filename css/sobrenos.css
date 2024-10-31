@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: 0;
@@ -8,6 +7,7 @@ body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden; /* Impede a criação de barra de rolagem horizontal */
 }
+
 
 .titulo {
     display: flex;
@@ -17,14 +17,17 @@ body {
     padding-top: 1rem;
 }
 
+
 .titulo h1 {
     font-size: 2rem;
 }
+
 
 .container {
     width: 100%;
     padding: 0 20px;
 }
+
 
 .b1 {
     display: flex;
@@ -35,22 +38,9 @@ body {
     gap: 20px; /* Espaçamento entre os cards e a seta */
     max-width: 100%;
     padding: 20px;
-.titulo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 3rem;
-    margin: 3rem;
-    margin-top: 0;
-    padding-top: 0;
 }
 
-.titulo h1 {
-    font-size: 2rem;
-}
 
-.card-Fernanda,
-.card-Vinicius {
 .card-Fernanda,
 .card-Vinicius {
     margin: 20px;
@@ -60,63 +50,34 @@ body {
     width: 100%;
     max-width: 400px;
     padding: 50px 20px;
-    width: 400px;
-    padding: 50px 20px;
-    /* Ajuste do padding */
     color: white;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    justify-content: flex-start;
     align-items: center;
 }
 
-.card-Fernanda img,
-.card-Vinicius img {
+
 .card-Fernanda img,
 .card-Vinicius img {
     border-radius: 50%;
     max-height: 300px;
     width: 100%;
     max-width: 300px;
-    width: 300px;
-    margin: 0;
 }
 
-.b1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 100vh;
-    padding-left: 120px;
-}
 
-.card-Fernanda h3,
-.card-Vinicius h3,
-.card-Fernanda p,
-.card-Vinicius p {
 .card-Fernanda h3,
 .card-Vinicius h3,
 .card-Fernanda p,
 .card-Vinicius p {
     margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 0;
 }
 
+
 /* Garantir que o texto role corretamente e não invada os cards */
-
-.b1 img.arrow {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-
-}
-
 .role {
     font-size: 1.5em;
     font-weight: bold;
@@ -124,6 +85,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
 }
+
 
 /* Estilo da seta */
 .b1 img.arrow {
@@ -133,21 +95,25 @@ body {
     position: relative;
 }
 
+
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
     .role {
         font-size: 1.2em;
     }
 
+
     .b1 {
         flex-direction: column; /* Cards em coluna em telas pequenas */
         align-items: center;
     }
 
+
     .card-Fernanda,
     .card-Vinicius {
         min-width: 250px;
     }
+
 
     .b1 img.arrow {
         margin-left: 0;
@@ -155,10 +121,12 @@ body {
     }
 }
 
+
 @media (max-width: 480px) {
     .role {
         font-size: 1em;
     }
+
 
     .card-Fernanda,
     .card-Vinicius {
