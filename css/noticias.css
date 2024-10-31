@@ -41,7 +41,7 @@ body {
     align-items: flex-start;
     width: 80%;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #00c3ff;
     justify-content: center;
     gap: 6rem;
 }
@@ -54,13 +54,11 @@ body {
     margin: 10px;
     display: flex;
     border-radius: 0.65rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    align-items: baseline;
-    padding: 1rem;
+    align-content: flex-start;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 .quadrado1 h3, .quadrado2 h3, .quadrado3 h3 {
@@ -68,8 +66,10 @@ body {
 }
 
 .quadrado1 img, .quadrado2 img, .quadrado3 img {
-    width: 23rem;
-    height: 15rem;
+    width: 100%;
+    height: auto;
     border-radius: 0.65rem 0.65rem 0 0;
+    align-self: flex-start;
     margin: 0;
+    display: flex;
 }
