@@ -6,18 +6,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-
-.white-bar {
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    z-index: 1;
-    position: absolute;
-    top:0;
-    left: 0;
-    
-}
-
+/* Estilo do cabeçalho */
 header {
     background-color: #E30613;
     color: #ffffff;
@@ -29,16 +18,23 @@ header {
 }
 
 .logo {
-margin-left: 20px;
-margin-right: 100px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: center;
 }
 
-.logo img {
+.lua {
+    width: 3rem;
+    height: auto;
+}
+
+.logoimg {
 width: 80px;
 height: auto;
 }
 
-
+/* Navegação */
 .nav {
     display: flex;
     align-items: center;
@@ -71,6 +67,7 @@ nav ul li a:hover {
     color:#E30613;
 }
 
+/* Dropdown */
 nav ul li ul {
     display: none;
     position: absolute;
@@ -101,4 +98,11 @@ nav ul li ul li a:hover {
     background-color: #ffffff;
     color:#E30613;
     ; 
+}
+
+.noturno {
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
 }

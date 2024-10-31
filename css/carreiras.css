@@ -1,58 +1,124 @@
-.main-container {
-    background-color: blue;
-    padding: 2rem; 
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
     display: flex;
-    flex-direction: column; 
     align-items: center;
-    gap: 2rem; 
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.carreira, .estagio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d42c2e; /* Cor vermelha para os textos */
+}
+
+.separator {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #d3a29d; /* Cor da linha */
+    margin: 0 20px;
+}
+.main-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 .main-analista {
-    background-color: black;
+    background-color: #ffffff;
     width: 70rem;
     display: flex;
     border-radius: 20px;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.219);
+    height: 38rem;
+    padding: 2rem;
+
 }
 
 .carreira-img img {
     height: 12rem;
     width: 70rem;
-    border-radius: 2%;
+    border-radius: 13px;
 }
 
 .text-analista {
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
+
 }
 
 .text2-analista {
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     font-size: 15px;
-    text-align: center;
+    text-align: justify;
     margin-left: 100px;
     margin-right: 100px;
 }
 
 .analista-button {
-    background-color: rgb(255, 255, 255);
+    background-color: #e30613;
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;
-    width: 10rem;
-    color: black;
-    height: 70px;
+    border-radius: 20px;
+    width: 20rem;
+    color: rgb(255, 255, 255);
+    height: 57.47px;
+    text-decoration: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
 }
 
 .analista-button1 {
     display: flex;
-    height: 10rem;
+    height: 5rem;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
+    padding: 15px;
 }
+
+.analista-button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.analista-button12 {
+    background-color: #e30613;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 20rem;
+    color: rgb(255, 255, 255);
+    height: 57.47px;
+    text-decoration: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+}
+
+.analista-button2 {
+    
+        display: flex;
+        height: 10rem;
+        justify-content: center;
+        align-items: flex-start;
+    
+}
+
+.analista-button2 a {
+    text-decoration: none;
+    color: white;
+}
+    

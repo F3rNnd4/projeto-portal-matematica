@@ -5,52 +5,60 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home</title>
+  <link rel="stylesheet" href="./css/header.css" />
   <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/footer.css">
 </head>
 
-<header>
-  <div class="white-bar">Linha Branca</div>
-  <link rel="stylesheet" href="./css/header.css" />
-
-  <nav>
-    <ul>
-      <li>
-        <a href="./index.html">Home</a>
-        <ul>
-          <li><a href="#">Carreira</a></li>
-          <li><a href="#">Estágio</a></li>
-          <li><a href="#">Simulado</a></li>
-          <li><a href="#">Entrevistas</a></li>
-          <li><a href="#">Dicas</a></li>
-          <li><a href="../pages/sobrenos.html">Sobre</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">Matemática</a>
-        <ul>
-          <li><a href="#">Português</a></li>
-          <li><a href="#">Biologia</a></li>
-          <li><a href="#">História</a></li>
-          <li><a href="#">Geografia</a></li>
-          <li><a href="#">Química</a></li>
-          <li><a href="#">Física</a></li>
-          <li><a href="#">Inglês</a></li>
-          <li><a href="#">Filosofia</a></li>
-          <li><a href="#">Sociologia</a></li>
-          <li><a href="#">Ed. Física e Artes</a></li>
-        </ul>
-  </nav>
-  </ul>
-  </li>
-  </ul>
-  </nav>
-
-  <div class="logo">
-    <img src="imgHeader/logosesisenai.png" alt="Logo FIESP SESI SENAI" width="100" />
-  </div>
-</header>
-
 <body>
+
+  <header>
+
+
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+          <ul>
+            <li><a href="./pages/carreiras.html">Carreira</a></li>
+            <li><a href="./pages/carreiras.html">Estágio</a></li>
+            <li><a href="./pages/simulado.html">Simulado</a></li>
+            <li><a href="#">Entrevistas</a></li>
+            <li><a href="./pages/dicas.html">Dicas</a></li>
+            <li><a href="./pages/sobrenos.html">Sobre</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Matemática</a>
+          <ul>
+            <li><a href="#">Português</a></li>
+            <li><a href="#">Biologia</a></li>
+            <li><a href="#">História</a></li>
+            <li><a href="#">Geografia</a></li>
+            <li><a href="#">Química</a></li>
+            <li><a href="#">Física</a></li>
+            <li><a href="#">Inglês</a></li>
+            <li><a href="#">Filosofia</a></li>
+            <li><a href="#">Sociologia</a></li>
+            <li><a href="#">Ed. Física e Artes</a></li>
+          </ul>
+    </nav>
+    </ul>
+    </li>
+    </ul>
+    </nav>
+
+    <div class="logo">
+      <img class="iconeimg" src="imgHeader/logosesisenai.png" alt="Logo FIESP SESI SENAI" width="100" />
+
+      <img src="./imgHeader/noturno.png" alt=" icone" class="lua" id="icone">
+      <script src="./script.js"></script>
+
+    </div>
+
+
+
+  </header>
 
   <nav class="main-title">
     <h1>Matemática</h1>
@@ -76,10 +84,9 @@
     </div>
 
     <div class="news-item-3">
-      <img src="./imgHome/graficointeiro.webp"
-        alt="O que mais aparece de Matemática no ENEM e nos vestibulares" />
+      <img src="./imgHome/graficointeiro.webp" alt="O que mais aparece de Matemática no ENEM e nos vestibulares" />
       <p class="main-content">
-        O que mais cai <br>na prova de Matemática <br>do Enem? 
+        O que mais cai <br>na prova de Matemática <br>do Enem?
       </p>
     </div>
   </main>
@@ -93,6 +100,35 @@
   <div class="calendar-content">
     <h1 class="calendar-title"><b> CALENDÁRIO DE PROVAS E VESTIBULARES</b></h1>
     <img class="calendario-img" src="./imgHome/calendario.png" alt="calendario" />
+  </div>
+
+  <footer>
+
+    <div class="footer-content">
+      <div class="footer-links">
+
+
+        <a href="#">INSTITUCIONAL</a>
+        <a href="#">LICITAÇÕES</a>
+        <a href="#">POLÍTICA DE PRIVACIDADE</a>
+        <a href="#">PERGUNTAS FREQUENTES</a>
+        <a href="#">CONSULTAS AO ACERVO</a>
+        <a href="#">A LGPD no SESI-SP</a>
+
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="footer-copyright">
+    <p>Copyright 2024 &copy; Todos os direitos reservados. &bull; FP90</p>
+
   </div>
 
 </body>

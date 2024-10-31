@@ -8,20 +8,20 @@
 
 
 <header>
-    <div class="white-bar">Linha Branca</div>
+
     <link rel="stylesheet" href="../css/header.css" />
 
     <nav>
         <ul>
             <li>
-                <a href="./index.html">Home</a>
+                <a href="../index.html">Home</a>
                 <ul>
-                    <li><a href="#">Carreira</a></li>
-                    <li><a href="#">Estágio</a></li>
-                    <li><a href="#">Simulado</a></li>
-                    <li><a href="#">Entrevistas</a></li>
-                    <li><a href="#">Dicas</a></li>
-                    <li><a href="../pages/sobrenos.html">Sobre</a></li>
+                    <li><a href="./carreiras.html">Carreira</a></li>
+                    <li><a href="./carreiras.html">Estágio</a></li>
+                    <li><a href="./simulado.html">Simulado</a></li>
+                    <li><a href="">Entrevistas</a></li>
+                    <li><a href="./dicas.html">Dicas</a></li>
+                    <li><a href="./sobrenos.html">Sobre</a></li>
                 </ul>
             </li>
             <li>
@@ -44,14 +44,25 @@
 
     <div class="logo">
         <img src="../imgHeader/logosesisenai.png" alt="Logo FIESP SESI SENAI" width="100" />
+
+        <img src="../imgHeader/noturno.png" alt=" icone" class="icone" id="icone">
+        <script src="../script.js"></script>
+
     </div>
 </header>
 
 <body>
+
+    <div class="header">
+        <a href="./carreiras.html" style="text-decoration: none;"><span class="carreira">CARREIRAS</span></a>
+        <span class="separator"></span>
+        <a href="https://br.linkedin.com/jobs/estagi%C3%A1rio-na-%C3%A1rea-de-matem%C3%A1tica-vagas-s%C3%A3o-paulo?original_referer=https%3A%2F%2Fwww.google.com%2F&position=1&pageNum=0" style="text-decoration: none;"><span class="estagio">ESTÁGIOS</span></a> 
+    </div>
+    
     <div class="main-container">
         <div class="main-analista">
             <div class="carreira-img">
-                <img src="https://s3-alpha-sig.figma.com/img/2c7e/5402/afc1a00b98d4c4c8de38851f244ad8fa?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGQOQSFpbC1rFP~ffHjWMN-G4oTnT55MZtBA1xjK5zWJCrljgeYEZsUNmDm26y42RrnkIIvGmE1kOX05529Fm8vROwYzkSypugBiSmnQn-4H79HeAwclSwEf9ZeKtcoAU~sCN3X~Eawk6MjfYWdlR2v9kd0YC3oG0pDFdvBR28zJvwv2Tkm-hCNlf8OYSyTpSRUxqRj2EQ9aJWoJy1Etm-bL~rvbbV7RPfJU3VBmHI38KFARScfYxwx7cQiLDff610N2TRFhRlrPdMh9o80gLHAPhMBA3H4es7g2~UQYlDgARMw9mzmoULJTq9tSGRXFOfUn98joiQhJCduEquQnvQ__" alt="Analista">
+                <img src="../imgCarreiras/img1.jpg" alt="Analista">
                 <div class="text-analista">
                     <h3>Analista de Dados</h3>
                 </div>
@@ -59,9 +70,19 @@
                     <p>São especializados em coletar, processar e verificar dados. Eles aplicam técnicas estatísticas a conjuntos complexos de dados para identificar tendências e insights que podem ajudar as empresas a resolver problemas ou tomar melhores decisões de negócios. Os analistas de dados estão em demanda em muitos setores, desde vendas e marketing até seguros e assistência médica.</p>
                 </div>
                 <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/carreiras-e-profissoes/analista-de-dados">
                     <div class="analista-button">
-                        <h3>Ver mais</h3>
+                        <h3>VER MAIS</h3>
                     </div>
+                </a>
+                </div>
+                <div class="analista-button2">
+                    <a href="https://br.linkedin.com/jobs/estagi%C3%A1rio-em-an%C3%A1lise-de-dados-vagas?position=1&pageNum=0">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
+                </a>
                 </div>
             </div>
         </div>
@@ -69,70 +90,138 @@
         
         <div class="main-analista">
             <div class="carreira-img">
-                <img src="https://s3-alpha-sig.figma.com/img/2c7e/5402/afc1a00b98d4c4c8de38851f244ad8fa?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGQOQSFpbC1rFP~ffHjWMN-G4oTnT55MZtBA1xjK5zWJCrljgeYEZsUNmDm26y42RrnkIIvGmE1kOX05529Fm8vROwYzkSypugBiSmnQn-4H79HeAwclSwEf9ZeKtcoAU~sCN3X~Eawk6MjfYWdlR2v9kd0YC3oG0pDFdvBR28zJvwv2Tkm-hCNlf8OYSyTpSRUxqRj2EQ9aJWoJy1Etm-bL~rvbbV7RPfJU3VBmHI38KFARScfYxwx7cQiLDff610N2TRFhRlrPdMh9o80gLHAPhMBA3H4es7g2~UQYlDgARMw9mzmoULJTq9tSGRXFOfUn98joiQhJCduEquQnvQ__" alt="Desenvolvedor de Software"> 
+                <img src="../imgCarreiras/img2.jpg" alt="Desenvolvedor de Software"> 
                 <div class="text-analista">
-                    <h3>Desenvolvedor de Software</h3>
+                    <h3>Engenheiro de sistemas</h3>
                 </div>
                 <div class="text2-analista">
-                    <p>Os desenvolvedores de software criam aplicações e sistemas que ajudam a resolver problemas e atender às necessidades dos usuários. Eles trabalham com diferentes linguagens de programação e estão envolvidos em todas as etapas do desenvolvimento, desde o design até a implementação e manutenção.</p>
+                    <p>Esses profissionais desenvolvem conjuntos detalhados de instruções que informam passo a passo ao computador como operar e o que fazer. Você pode projetar algoritmos para qualquer coisa, desde reconhecimento biométrico de impressões digitais até aplicativos de direção automatizados.</p>
                 </div>
                 <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/carreiras-e-profissoes/engenheiro-de-sistemas">
                     <div class="analista-button">
-                        <h3>Ver mais</h3>
+                        <h3>VER MAIS</h3>
                     </div>
+                </a>
+
+                </div>
+                <div class="analista-button2">
+                    <a href="https://www.glassdoor.com.br/Vaga/brazil-engenheiro-de-desenvolvimento-de-algoritmo-vagas-SRCH_IL.0,6_IN36_KO7,49.htm">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-analista">
+            <div class="carreira-img">
+                <img src="../imgCarreiras/img3.jpg" alt="Desenvolvedor de Software"> 
+                <div class="text-analista">
+                    <h3>Economista</h3>
+                </div>
+                <div class="text2-analista">
+                    <p>Economistas estudam dados de mercado e usam modelos matemáticos e análises estatísticas para entender e explicar tendências econômicas. Se concentram em pesquisas, monitoram as condições do mercado para ajudar as corporações a maximizar seus lucros e trabalham em vários níveis de carreiras em empresas e no governo.</p>
+                </div>
+                <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/carreiras-e-profissoes/economista">
+                    <div class="analista-button">
+                        <h3>VER MAIS</h3>
+                    </div>
+                </a>
+                </div>
+                <div class="analista-button2">
+                    <a href="https://br.linkedin.com/jobs/est%C3%A1gio-economia-vagas?original_referer=https%3A%2F%2Fwww.google.com%2F&position=1&pageNum=0">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-analista">
+            <div class="carreira-img">
+                <img src="../imgCarreiras/img4.jpeg" alt="Desenvolvedor de Software"> 
+                <div class="text-analista">
+                    <h3>Cientista de dados</h3>
+                </div>
+                <div class="text2-analista">
+                    <p>Como os analistas de dados, os cientistas de dados estão concentrados em extrair informações úteis a partir de dados complexos. No entanto, enquanto analistas de dados examinam dados usando ferramentas e sistemas existentes, os cientistas de dados podem desenvolver novas ferramentas e algoritmos para resolver problemas de negócios.</p>
+                </div>
+                <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/carreiras-e-profissoes/cientista-de-dados">
+                    <div class="analista-button">
+                        <h3>VER MAIS</h3>
+                    </div>
+                </a>
+                </div>
+                <div class="analista-button2">
+                    <a href="https://br.linkedin.com/jobs/ci%C3%AAncia-de-dados-vagas?position=1&pageNum=0">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
                 </div>
             </div>
         </div>
 
         <div class="main-analista">
             <div class="carreira-img">
-                <img src="https://s3-alpha-sig.figma.com/img/2c7e/5402/afc1a00b98d4c4c8de38851f244ad8fa?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGQOQSFpbC1rFP~ffHjWMN-G4oTnT55MZtBA1xjK5zWJCrljgeYEZsUNmDm26y42RrnkIIvGmE1kOX05529Fm8vROwYzkSypugBiSmnQn-4H79HeAwclSwEf9ZeKtcoAU~sCN3X~Eawk6MjfYWdlR2v9kd0YC3oG0pDFdvBR28zJvwv2Tkm-hCNlf8OYSyTpSRUxqRj2EQ9aJWoJy1Etm-bL~rvbbV7RPfJU3VBmHI38KFARScfYxwx7cQiLDff610N2TRFhRlrPdMh9o80gLHAPhMBA3H4es7g2~UQYlDgARMw9mzmoULJTq9tSGRXFOfUn98joiQhJCduEquQnvQ__" alt="Desenvolvedor de Software"> 
+                <img src="../imgCarreiras/img5.png" alt="Desenvolvedor de Software"> 
                 <div class="text-analista">
-                    <h3>Desenvolvedor de Software</h3>
+                    <h3>Matemático</h3>
                 </div>
                 <div class="text2-analista">
-                    <p>Os desenvolvedores de software criam aplicações e sistemas que ajudam a resolver problemas e atender às necessidades dos usuários. Eles trabalham com diferentes linguagens de programação e estão envolvidos em todas as etapas do desenvolvimento, desde o design até a implementação e manutenção.</p>
+                    <p>Um matemático é um profissional que se dedica ao estudo de matemática, uma disciplina fundamental para a compreensão de padrões, estruturas e quantidades. O trabalho de um matemático pode envolver a resolução de problemas abstratos, o desenvolvimento de teorias matemáticas ou a aplicação de conceitos matemáticos em campos como a ciência, a engenharia, a economia e a tecnologia. Matemáticos podem se especializar em áreas como álgebra, geometria, análise, probabilidade ou computação. Seu papel é essencial tanto no avanço do conhecimento teórico quanto na resolução de problemas práticos no mundo moderno.</p>
                 </div>
                 <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/carreiras-e-profissoes/profissional-de-matematica">
                     <div class="analista-button">
-                        <h3>Ver mais</h3>
+                        <h3>VER MAIS</h3>
                     </div>
+                </a>
+                </div>
+                <div class="analista-button2">
+                    <a href="https://br.linkedin.com/jobs/est%C3%A1gio-em-matem%C3%A1tica-vagas?position=1&pageNum=0">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
                 </div>
             </div>
         </div>
 
+
         <div class="main-analista">
             <div class="carreira-img">
-                <img src="https://s3-alpha-sig.figma.com/img/2c7e/5402/afc1a00b98d4c4c8de38851f244ad8fa?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGQOQSFpbC1rFP~ffHjWMN-G4oTnT55MZtBA1xjK5zWJCrljgeYEZsUNmDm26y42RrnkIIvGmE1kOX05529Fm8vROwYzkSypugBiSmnQn-4H79HeAwclSwEf9ZeKtcoAU~sCN3X~Eawk6MjfYWdlR2v9kd0YC3oG0pDFdvBR28zJvwv2Tkm-hCNlf8OYSyTpSRUxqRj2EQ9aJWoJy1Etm-bL~rvbbV7RPfJU3VBmHI38KFARScfYxwx7cQiLDff610N2TRFhRlrPdMh9o80gLHAPhMBA3H4es7g2~UQYlDgARMw9mzmoULJTq9tSGRXFOfUn98joiQhJCduEquQnvQ__" alt="Desenvolvedor de Software"> 
+                <img src="../imgCarreiras/img6.png" alt="Desenvolvedor de Software"> 
                 <div class="text-analista">
-                    <h3>Desenvolvedor de Software</h3>
+                    <h3>Professor de matemática</h3>
                 </div>
                 <div class="text2-analista">
-                    <p>Os desenvolvedores de software criam aplicações e sistemas que ajudam a resolver problemas e atender às necessidades dos usuários. Eles trabalham com diferentes linguagens de programação e estão envolvidos em todas as etapas do desenvolvimento, desde o design até a implementação e manutenção.</p>
+                    <p>Mesmo sendo o mais óbvio de todos os principais trabalhos de matemática, as pessoas que fazem esse tipo de trabalho estão em altíssima demanda e espera-se que o emprego cresça 33% entre 2016 e 2026. Você pode pesquisar novas teorias e conceitos, desenvolver modelos matemáticos ou analisar dados para resolver problemas de negócios e, com isso, pode literalmente mudar a vida de crianças e adolescentes através do seu conhecimento.</p>
                 </div>
                 <div class="analista-button1">
+                    <a href="https://querobolsa.com.br/cursos-e-faculdades/matematica">
                     <div class="analista-button">
-                        <h3>Ver mais</h3>
+                        <h3>VER MAIS</h3>
                     </div>
+                </a>
+                </div>
+                <div class="analista-button2">
+                    <a href="https://br.linkedin.com/jobs/est%C3%A1gio-licenciatura-em-matem%C3%A1tica-vagas?position=1&pageNum=0">
+                    <div class="analista-button12">
+                        <h3>ESTÁGIOS</h3>
+                    </div>
+                </a>
                 </div>
             </div>
         </div>
-        <div class="main-analista">
-            <div class="carreira-img">
-                <img src="https://s3-alpha-sig.figma.com/img/2c7e/5402/afc1a00b98d4c4c8de38851f244ad8fa?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pGQOQSFpbC1rFP~ffHjWMN-G4oTnT55MZtBA1xjK5zWJCrljgeYEZsUNmDm26y42RrnkIIvGmE1kOX05529Fm8vROwYzkSypugBiSmnQn-4H79HeAwclSwEf9ZeKtcoAU~sCN3X~Eawk6MjfYWdlR2v9kd0YC3oG0pDFdvBR28zJvwv2Tkm-hCNlf8OYSyTpSRUxqRj2EQ9aJWoJy1Etm-bL~rvbbV7RPfJU3VBmHI38KFARScfYxwx7cQiLDff610N2TRFhRlrPdMh9o80gLHAPhMBA3H4es7g2~UQYlDgARMw9mzmoULJTq9tSGRXFOfUn98joiQhJCduEquQnvQ__" alt="Desenvolvedor de Software"> 
-                <div class="text-analista">
-                    <h3>Desenvolvedor de Software</h3>
-                </div>
-                <div class="text2-analista">
-                    <p>Os desenvolvedores de software criam aplicações e sistemas que ajudam a resolver problemas e atender às necessidades dos usuários. Eles trabalham com diferentes linguagens de programação e estão envolvidos em todas as etapas do desenvolvimento, desde o design até a implementação e manutenção.</p>
-                </div>
-                <div class="analista-button1">
-                    <div class="analista-button">
-                        <h3>Ver mais</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+ 
 
     
     </div>
