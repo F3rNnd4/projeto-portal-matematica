@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.carreira, .estagio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d42c2e; /* Cor vermelha para os textos */
+}
+
+.separator {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #d3a29d; /* Cor da linha */
+    margin: 0 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    gap: 6rem;
+}
+
+
+.quadrado1, .quadrado2, .quadrado3 {
+    width: 30rem;
+    height: 20rem;
+    background-color: #d42c2e;
+    margin: 10px;
+    display: flex;
+    border-radius: 0.65rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 1rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+}
+
+.quadrado1 h3, .quadrado2 h3, .quadrado3 h3 {
+    color: white;
+}
+
+.quadrado1 img, .quadrado2 img, .quadrado3 img {
+    width: 23rem;
+    height: 15rem;
+    border-radius: 0.65rem 0.65rem 0 0;
+    margin: 0;
+}
