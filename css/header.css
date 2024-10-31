@@ -9,12 +9,14 @@ body {
 /* Estilo do cabeçalho */
 header {
     background-color: #E30613;
+    width: 100%;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     margin-top: 60px;
+
 }
 
 .logo {
