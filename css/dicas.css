@@ -11,10 +11,10 @@
     .box {
         background-color: #ffffff;
         width: 500px;
-        border-radius: 10px;
+        border-radius: 1.25rem;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
-        height: 550px;
+        height: 45rem;
         padding: 30px;
     }
     
@@ -40,7 +40,9 @@
     
     .btn {
         display: inline-block;
-        padding: 10px 20px;
+        height: ;
+        width: 300px;
+        padding: 15px 15px;
         color: #ffffff;
         background-color: #E30613;
         border-radius: 5px;
