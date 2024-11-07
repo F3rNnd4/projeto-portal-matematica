@@ -40,6 +40,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
 }
 
 .geometria-container {
@@ -50,6 +51,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
 }
 
 .trigonometria-container {
@@ -60,34 +62,69 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
 }
 
 .funcoes-container {
-    width: 10rem;
+    width: 12rem;
     height: 60%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
 }
 
 .estatistica-container {
-    width: 10rem;
+    width: 15rem;
     height: 60%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
 }
 
 .financeira-container {
-    width: 10rem;
+    width: 15rem;
     height: 60%;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
+    font-size: 2.5vh;
+}
+
+.all-questions {
+    width: 100%;
+    height: 100%;
+    background-color: #089654;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+.question-card {
+    background-color: aquamarine;
+    width: 100%;
+    height: 80vh;
+    padding: 0 0 0 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-card h2 {
+    color: #E30613;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
