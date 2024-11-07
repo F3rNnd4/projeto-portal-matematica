@@ -61,17 +61,19 @@
 .tips-arrow {
     display: flex;
     justify-content: flex-start;
-    padding: 0 1rem 0 0;
+    padding: 0 0 0 1rem;
 }
 
 .tips-arrow img {
     width: 6.25rem;
+    padding-left: 1 1rem 1 1; ;
 }
 
 .tips {
     font-size: 0.9rem;
     color: #E30613;
     margin: 30px;
+    padding-left: 1 1rem 1 1; ;
 }
 
 .tips-title:after {
