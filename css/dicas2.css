@@ -1,6 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding: 80px 0;
+    }
+    
+    .box {
+        background-color: #ffffff;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        height: 550px;
+        padding: 30px;
+    }
+    
+    .image {
+        width: 450px;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        color: #333;
+        margin: 15px 0;
+    }
+    
+    p {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #ffffff;
+        background-color: #E30613;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .btn:hover {
+        background-color: #b30612;
+    }
+    
+    /* ................................................          Dicas..................................................................... */
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
