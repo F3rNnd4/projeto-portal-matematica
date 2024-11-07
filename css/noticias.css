@@ -48,7 +48,7 @@ body {
 }
 
 
-.quadrado1, .quadrado2, .quadrado3, .quadrado4, .quadrado5, .quadrado6 {
+.quadrado1, .quadrado2, .quadrado3, .quadrado4, .quadrado5, .quadrado6, .quadrado7, .quadrado8, .quadrado9, .quadrado10, .quadrado11, .quadrado12, .quadrado13, .quadrado14, .quadrado15 {
     width: 26rem;
     height: 20rem;
     background-color: #ffffff;
@@ -63,7 +63,7 @@ body {
     border: 1px solid #DCCFCF;
 }
 
-.quadrado1 h3, .quadrado2 h3, .quadrado3 h3, .quadrado4 h3, .quadrado5 h3, .quadrado6 h3 {
+.quadrado1 h3, .quadrado2 h3, .quadrado3 h3, .quadrado4 h3, .quadrado5 h3, .quadrado6 h3, .quadrado7 h3, .quadrado8 h3, .quadrado9 h3, .quadrado10 h3, .quadrado11 h3, .quadrado12 h3, .quadrado13 h3, .quadrado14 h3, .quadrado15 h3 {
     color: rgb(0, 0, 0);
 }
 
@@ -71,7 +71,12 @@ a {
     text-decoration: none;
 }
 
-.quadrado1 img, .quadrado2 img, .quadrado3 img, .quadrado4 img, .quadrado5 img, .quadrado6 img {
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.quadrado1 img, .quadrado2 img, .quadrado3 img, .quadrado4 img, .quadrado5 img, .quadrado6 img, .quadrado7 img, .quadrado8 img, .quadrado9 img, .quadrado10 img, .quadrado11 img, .quadrado12 img, .quadrado13 img, .quadrado14 img, .quadrado15 img {
     width: 100%;
     height: auto;
     border-radius: 0.65rem 0.65rem 0 0;
