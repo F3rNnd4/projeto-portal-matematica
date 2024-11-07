@@ -8,7 +8,7 @@
 .test {
     font-size: 0.9rem;
     color: #E30613;
-    margin: 30px;
+    margin: 1.87rem;
 }
 
 .test-title:after {
@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .geometria-container {
@@ -51,7 +51,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .trigonometria-container {
@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .funcoes-container {
@@ -73,7 +73,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 2vh;
 }
 
 .estatistica-container {
@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 1.8vh;
 }
 
 .financeira-container {
@@ -95,13 +95,19 @@
     justify-content: center;
     align-items: center;
     border-radius: 1.25rem;
-    font-size: 2.5vh;
+    font-size: 1.8vh;
+}
+
+.subject-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E30613;
 }
 
 .all-questions {
     width: 100%;
     height: 100%;
-    background-color: #089654;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,9 +116,8 @@
 }
 
 .question-card {
-    background-color: aquamarine;
     width: 100%;
-    height: 80vh;
+    height: 50%;
     padding: 0 0 0 10vh;
     display: flex;
     flex-direction: column;
@@ -127,4 +132,55 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.option {
+    width: 90%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    border-radius: 1.25rem;
+    border: 0.1vh solid black;
+}
+
+.option:hover {
+    background-color: rgb(223, 221, 221);
+    color: black;
+}
+
+.answer {
+    font-size: 0.9rem;
+    color: #E30613;
+    margin: 1.87rem;
+}
+
+.answer-title:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    height: 0.06rem;
+    margin: 0.8rem 0 0 2.8rem;
+    background-color: #E30613;
+}
+
+.answers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answers-card {
+    width: 95%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.answers-card h2 {
+    color: #E30613;
 }
