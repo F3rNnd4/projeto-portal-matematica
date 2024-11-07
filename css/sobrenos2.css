@@ -28,6 +28,8 @@ body {
     height: 100px;
     width: 100px;
     display: flex;
+    
+
 }
 
 
@@ -90,12 +92,7 @@ h1 {
     }
 
 
-    .b1 .card-Pereira,
-    .b1 .card-Matheus,
-    .b1 .card-Jessica,
-    .b1 .card-Sara {
-        width: 250px;
-    }
+
 }
 
 
@@ -163,13 +160,11 @@ h1 {
     }
 
 
-    .b1 .card-Pereira,
-    .b1 .card-Matheus,
-    .b1 .card-Jessica,
-    .b1 .card-Sara {
-        max-width: 100%; /* Cards ocupam toda a largura disponível */
-        padding: 20px; /* Padding menor para dispositivos móveis */
-    }
+ .arrow2{
+
+        width: 30px;
+        height: 30px;
+ }
 
 
     .b1 img.arrow {
@@ -183,6 +178,8 @@ h1 {
     .titulo h1 {
         font-size: 1.2rem;
     }
+
+    
 
 
     .b1 h3 {
@@ -199,4 +196,13 @@ h1 {
         height: 40px;
         width: 40px;
     }
+}
+
+@media (max-width: 1140px) {
+    .arrow2{
+
+        width: 40px;
+        height: 40px;
+ }
+
 }
