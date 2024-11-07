@@ -1,189 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* Reset básico com a fonte do site todo */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
-/*****************************/
-/* Título com a calculadora */
-/****************************/
-.main-title {
+:root {
+    --cor-vermelho: #E30613;
+}
+
+.titulo {
+    height: 4rem;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-.main-title h1 {
-    font-size: 24px;
-    color: #E30613;
+.titulo h1 {
+    color: var(--cor-vermelho)
 }
 
-.main-title img {
-    width: 35px;
-    height: auto;
+.calculadora {
+    width: auto;
+    height: 3rem;
 }
 
-/***************************/
-/* Notícias da página Home */
-/**************************/
-.news-img-content {
-    display: flex;
-    width: 100px;
-}
-
-.news-img-content .overlay {
-    position: absolute;
+.pai {
+    background-color: chartreuse;
     width: 100%;
-    height: 25.6rem;
-    background-color: rgba(104, 20, 19, 0.70);
-    mix-blend-mode: multiply;
-    z-index: 5;
+    height: 100%;
 }
 
-.news-item-content {
-    position: relative;
-    display: inline-block;
-}
-
-.news-item-1 img {
-    width: 400px;
-}
-
-.news-item-2 img {
-    height: 409px;
-}
-
-.news-item-3 img {
-    height: auto;
-    width: 31.780rem;
-}
-
-.main-content {
-    position: absolute;
-    z-index: 100;
-    margin-left: 15px;
-    top: 540px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-}
-
-/*****************************/
-/* Botão para mais notícias */
-/****************************/
-.more-news-content {
-    display: grid;
-    place-items: center;
-    margin: 0;
-    padding-bottom: 50px;
-}
-
-.more-news {
-    width: 350px;
-    height: 80px;
-    display: inline-block;
+.noticias {
     background-color: #E30613;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.noticia1 {
+    background-color: deeppink;
+    height: 30rem;
+    width: 30%;
+}
+
+.noticia2 {
+    background-color: blue;
+    height: 30rem;
+    width: 50%;
+}
+
+.noticia3 {
+    background-color: darkorange;
+    height: 30rem;
+    width: 20%;
+    display: flex;
+}
+
+.botao {
+display: flex;
+justify-content: center;
+}
+
+.maisNot {
+    background-color: var(--cor-vermelho);
+    width: 15%;
+    height: 6rem;
+    border-radius: 0 0 0.65rem 0.65rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    display: grid;
-    place-items: center;
-    text-decoration: none;
-    border-radius: 20px;
-    margin-top: 20px;
-    font-size: 12px;
+    font-size: 0.6rem;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.308);
 }
-
-.more-news:hover {
-    background-color: #c5000d;
-}
-
-/**************/
-/* Calendário */
-/**************/
-
-.calendar-title {
-    font-size: 1.5rem;
-    color: #E30613;
-    margin: 20px;
-}
-
-.calendar-title:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 80rem;
-    height: 1px;
-    margin: 15px;
-    margin-left: 45px;
-    background-color: #E30613;
-}
-
-.calendar-content img {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10rem;
-}
-
-@media (max-width: 768px) {
-    .news-img-content {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .news-img-content .overlay {
-        position: absolute;
-        width: 40rem;
-        height: 82rem;
-        background-color: rgba(104, 20, 19, 0.70);
-    }
-
-    .news-item-1 img {
-        width: 40rem;
-        height: auto;
-    }
-
-    .news-item-2 img {
-        width: 40rem;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-
-    .news-item-3 img {
-        width: 40rem;
-        height: auto;
-    }
-
-    .calendar-title{
-        font-size: 1rem;
-    }
-
-    .calendar-title:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 35%;
-        height: 1px;
-        margin: 15px;
-        margin-left: 40px;
-        background-color: #E30613;
-    }
-
-    .calendar-content img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-
-
-}
-
