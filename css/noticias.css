@@ -39,7 +39,7 @@ body {
     display: flex;
     width: 80%;
     height: 100%;
-    background-color: #00c3ff;
+    background-color: #ffffff;
     gap: 6rem;
     align-items: center;
     align-content: stretch;
@@ -51,7 +51,7 @@ body {
 .quadrado1, .quadrado2, .quadrado3, .quadrado4, .quadrado5, .quadrado6 {
     width: 26rem;
     height: 20rem;
-    background-color: #d42c2e;
+    background-color: #ffffff;
     margin: 10px;
     display: flex;
     border-radius: 0.65rem;
@@ -60,10 +60,11 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     flex-direction: column;
+    border: 1px solid #DCCFCF;
 }
 
 .quadrado1 h3, .quadrado2 h3, .quadrado3 h3, .quadrado4 h3, .quadrado5 h3, .quadrado6 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .quadrado1 img, .quadrado2 img, .quadrado3 img, .quadrado4 img, .quadrado5 img, .quadrado6 img {
