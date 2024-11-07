@@ -25,7 +25,7 @@
     height: 3rem;
 }
 
-.pai {
+.paiNoticia {
     background-color: chartreuse;
     width: 100%;
     height: 100%;
@@ -42,6 +42,12 @@
     background-color: deeppink;
     height: 30rem;
     width: 30%;
+    color: white;
+}
+
+.noticiaGaroto {
+    width: 100%;
+    height: 30rem;
 }
 
 .noticia2 {
@@ -73,4 +79,38 @@ justify-content: center;
     color: white;
     font-size: 0.6rem;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.308);
+}
+
+.paiCalendario {
+    background-color: gold;
+    width: 100%;
+    height: 80rem;
+}
+
+.tituloCalendario {
+    background-color: rgb(173, 197, 173);
+    padding: 1rem;
+    color: var(--cor-vermelho);
+}
+
+.tituloCalendar:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 50%;
+        height: 0.063rem;
+        margin: 0.938rem;
+        margin-left: 2.813rem;
+        margin-top: 1.25rem;
+        background-color: var(--cor-vermelho);
+}
+
+.imagemCalendario {
+    display: flex;
+    justify-content: center;
+}
+
+.calendario {
+    width: 90%;
+    height: auto;
 }
