@@ -26,41 +26,27 @@
 }
 
 .paiNoticia {
-    background-color: chartreuse;
     width: 100%;
-    height: 100%;
 }
 
 .noticias {
-    background-color: #E30613;
+    background-color: var(--cor-vermelho);
     height: 30rem;
-    width: 100%;
     display: flex;
     flex-direction: row;
 }
-.noticia1 {
-    background-color: deeppink;
+.noticia1 img {
     height: 30rem;
-    width: 30%;
-    color: white;
+    width: auto;
+}
+.noticia2 img {
+width: 68rem;
+height: 30rem;
 }
 
-.noticiaGaroto {
-    width: 100%;
+.noticia3 img {
+    width: 44.4rem;
     height: 30rem;
-}
-
-.noticia2 {
-    background-color: blue;
-    height: 30rem;
-    width: 50%;
-}
-
-.noticia3 {
-    background-color: darkorange;
-    height: 30rem;
-    width: 20%;
-    display: flex;
 }
 
 .botao {
@@ -82,13 +68,11 @@ justify-content: center;
 }
 
 .paiCalendario {
-    background-color: gold;
     width: 100%;
     height: 80rem;
 }
 
 .tituloCalendario {
-    background-color: rgb(173, 197, 173);
     padding: 1rem;
     color: var(--cor-vermelho);
 }
