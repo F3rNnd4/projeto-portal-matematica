@@ -65,6 +65,7 @@ body {
 
 .quadrado1 h3, .quadrado2 h3, .quadrado3 h3, .quadrado4 h3, .quadrado5 h3, .quadrado6 h3, .quadrado7 h3, .quadrado8 h3, .quadrado9 h3, .quadrado10 h3, .quadrado11 h3, .quadrado12 h3, .quadrado13 h3, .quadrado14 h3, .quadrado15 h3 {
     color: rgb(0, 0, 0);
+    padding: 1rem;
 }
 
 a {

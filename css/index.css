@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,46 +27,71 @@
     height: 3rem;
 }
 
-.paiNoticia {
-    width: 100%;
+.news-img-content {
+    display: flex;
+    width: 100px;
 }
 
-.noticias {
-    background-color: var(--cor-vermelho);
-    height: 30rem;
-    display: flex;
-    flex-direction: row;
+.news-img-content .overlay {
+    position: absolute;
+    width: 2105px;
+    height: 409px;
+    background-color: rgba(104, 20, 19, 0.70);
+    mix-blend-mode: multiply;
+    z-index: 5;
 }
-.noticia1 img {
-    height: 30rem;
+
+.news-item-content {
+    position: relative;
+    display: inline-block;
+}
+
+.news-item-1 img {
+    width: 400px;
+}
+
+.news-item-2 img {
+    height: 409px;
+}
+
+.news-item-3 img {
+    height: 408px;
     width: auto;
 }
-.noticia2 img {
-width: 68rem;
-height: 30rem;
-}
 
-.noticia3 img {
-    width: 44.4rem;
-    height: 30rem;
-}
-
-.botao {
-display: flex;
-justify-content: center;
-}
-
-.maisNot {
-    background-color: var(--cor-vermelho);
-    width: 15%;
-    height: 6rem;
-    border-radius: 0 0 0.65rem 0.65rem ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-content {
+    position: absolute;
+    z-index: 100;
+    margin-left: 15px;
+    top: 540px;
+    font-size: 24px;
+    font-weight: bold;
     color: white;
-    font-size: 0.6rem;
-    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.308);
+}
+
+.more-news-content {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.more-news {
+    width: 350px;
+    height: 80px;
+    display: inline-block;
+    background-color: var(--cor-vermelho);
+    color: white;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.more-news:hover {
+    background-color: #a5040f;
 }
 
 .paiCalendario {
@@ -97,4 +124,58 @@ justify-content: center;
 .calendario {
     width: 90%;
     height: auto;
+}
+
+@media (max-width: 768px) {
+    .news-img-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .news-img-content .overlay {
+        width: 40rem;
+        height: 82rem;
+        background-color: rgba(104, 20, 19, 0.70);
+    }
+    .main-content {
+    font-size: 2rem;
+    }
+    .news-item-1 {
+        align-items: baseline;
+    }
+    .news-item-1 img {
+        width: 40rem;
+        height: auto;
+    }
+    .news-item-2 img {
+        width: 40rem;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+    .news-item-3 img {
+        width: 40rem;
+        height: auto;
+    }
+    .calendar-title{
+        font-size: 1rem;
+    }
+    .calendar-title:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 40%;
+        height: 1px;
+        margin: 15px;
+        margin-left: 45px;
+        background-color: #E30613;
+    }
+    .calendar-content img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 }
