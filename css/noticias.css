@@ -84,7 +84,6 @@ a {
 
 .quadrado1:hover, .quadrado2:hover, .quadrado3:hover, .quadrado4:hover, .quadrado5:hover, .quadrado6:hover, .quadrado7:hover, .quadrado8:hover, .quadrado9:hover, .quadrado10:hover, .quadrado11:hover, .quadrado12:hover, .quadrado13:hover, .quadrado14:hover, .quadrado15:hover {
     background-color: #b6b6b62c;
-    transition: 200ms;
-    width: 27rem;
-    height: 21rem;
+    transition: 300ms;
+    transform: scale(1.05);
 }
