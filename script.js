@@ -7,7 +7,7 @@ icone.addEventListener("click", function() {
         document.body.style.color = "black";
         darkMode = false;
     } else {
-        document.body.style.background = "#2e3e41ff";
+        document.body.style.background = "#191414";
         document.body.style.color = "white";
         darkMode = true;
     }
