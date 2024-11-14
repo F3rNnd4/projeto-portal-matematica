@@ -19,54 +19,22 @@
 }
 
 .titulo h1 {
-    color: var(--cor-vermelho)
+    color: var(--cor-vermelho);
+    margin-top: 1rem;
 }
 
 .calculadora {
+    margin-top: 1.7rem;
     width: auto;
     height: 3rem;
 }
 
-.news-img-content {
-    display: flex;
-    width: 100px;
+.noticias {
+    margin: 2rem 7rem 2rem 7rem
 }
 
-.news-img-content .overlay {
-    position: absolute;
-    width: 2105px;
-    height: 409px;
-    background-color: rgba(104, 20, 19, 0.70);
-    mix-blend-mode: multiply;
-    z-index: 5;
-}
-
-.news-item-content {
-    position: relative;
-    display: inline-block;
-}
-
-.news-item-1 img {
-    width: 400px;
-}
-
-.news-item-2 img {
-    height: 409px;
-}
-
-.news-item-3 img {
-    height: 408px;
-    width: auto;
-}
-
-.main-content {
-    position: absolute;
-    z-index: 100;
-    margin-left: 15px;
-    top: 540px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+.imagem {
+    height: 40rem;
 }
 
 .more-news-content {
@@ -86,8 +54,7 @@
     place-items: center;
     text-decoration: none;
     border-radius: 20px;
-    margin-top: 20px;
-    font-size: 12px;
+    font-size: 10rem;
 }
 
 .more-news:hover {
@@ -108,11 +75,11 @@
         content: "";
         display: inline-block;
         position: absolute;
-        width: 50%;
+        width: 45%;
         height: 0.063rem;
         margin: 0.938rem;
         margin-left: 2.813rem;
-        margin-top: 1.25rem;
+        margin-top: 1.9rem;
         background-color: var(--cor-vermelho);
 }
 
@@ -127,42 +94,7 @@
 }
 
 @media (max-width: 768px) {
-    .news-img-content {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     
-    .news-img-content .overlay {
-        width: 40rem;
-        height: 82rem;
-        background-color: rgba(104, 20, 19, 0.70);
-    }
-    .main-content {
-    font-size: 2rem;
-    }
-    .news-item-1 {
-        align-items: baseline;
-    }
-    .news-item-1 img {
-        width: 40rem;
-        height: auto;
-    }
-    .news-item-2 img {
-        width: 40rem;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-    .news-item-3 img {
-        width: 40rem;
-        height: auto;
-    }
-    .calendar-title{
-        font-size: 1rem;
-    }
     .calendar-title:after {
         content: "";
         display: inline-block;
