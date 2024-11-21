@@ -27,7 +27,7 @@
     align-items: center;
     flex-direction: column;
     border: 1px solid #DCCFCF;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .noticiaTXT {
@@ -52,7 +52,7 @@
     align-content: center;
     flex-wrap: nowrap;
     padding: 0.7rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .img1 {
