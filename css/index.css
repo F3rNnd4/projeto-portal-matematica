@@ -1,131 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Reset básico com a fonte do site todo */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
-/*****************************/
-/* Título com a calculadora */
-/****************************/
-.main-title {
+:root {
+    --cor-vermelho: #E30613;
+}
+
+.titulo {
+    height: 4rem;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    text-align: center;
+    margin-top: 1rem;
 }
 
-.main-title h1 {
-    font-size: 24px;
-    color: #E30613;
+.titulo h1 {
+    color: var(--cor-vermelho);
+    margin-top: 1rem;
 }
 
-.main-title img {
-    width: 35px;
-    height: auto;
-}
-
-/***************************/
-/* Notícias da página Home */
-/**************************/
-.news-img-content {
-    display: flex;
-    width: 100px;
-}
-
-.news-img-content .overlay {
-    position: absolute;
-    width: 1903px;
-    height: 409px;
-    background-color: rgba(104, 20, 19, 0.70);
-    mix-blend-mode: multiply;
-    z-index: 5;
-}
-
-.news-item-content {
-    position: relative;
-    display: inline-block;
-}
-
-.news-item-1 img {
-    width: 400px;
-}
-
-.news-item-2 img {
-    height: 409px;
-}
-
-.news-item-3 img {
-    height: 408px;
+.calculadora {
+    margin-top: 1.7rem;
     width: auto;
+    height: 3rem;
 }
 
-.main-content {
-    position: absolute;
-    z-index: 100;
-    margin-left: 15px;
-    top: 540px;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+.noticias {
+    margin: 2rem 7rem 2rem 7rem
 }
 
-/*****************************/
-/* Botão para mais notícias */
-/****************************/
+.imagem {
+    height: 40rem;
+}
+
 .more-news-content {
     display: grid;
     place-items: center;
     margin: 0;
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 
 .more-news {
-    width: 350px;
-    height: 80px;
+    width: 20rem;
+    height: 5rem;
     display: inline-block;
-    background-color: #E30613;
+    background-color: var(--cor-vermelho);
     color: white;
     display: grid;
     place-items: center;
     text-decoration: none;
-    border-radius: 20px;
-    margin-top: 20px;
-    font-size: 12px;
+    border-radius: 1rem;
+    font-size: 10rem;
+}
+
+.more-news h3 {
+    font-size: 1.5rem;
 }
 
 .more-news:hover {
-    background-color: #c5000d;
+    background-color: #84050d;
 }
 
-/**************/
-/* Calendário */
-/**************/
-
-.calendar-title {
-    font-size: 1.5rem;
-    color: #E30613;
-    margin: 20px;
+.paiCalendario {
+    width: 100%;
+    height: 40rem;
 }
 
-.calendar-title:after {
+.tituloCalendario {
+    padding: 1rem;
+    color: var(--cor-vermelho);
+}
+
+.tituloCalendar {
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tituloCalendar:after {
     content: "";
     display: inline-block;
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    margin: 15px;
-    margin-left: 45px;
-    background-color: #E30613;
+    position: relative;
+    width: 45%;
+    height: 0.063rem;
+    margin: 0.938rem;
+    margin-left: 6rem;
+    margin-top: 1.9rem;
+    background-color: var(--cor-vermelho);
 }
 
-.calendar-content img {
-    width: 1800px;
+.imagemCalendario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.calendario {
+    width: 90%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10rem;
 }

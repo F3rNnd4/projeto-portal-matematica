@@ -8,28 +8,30 @@
   <link rel="stylesheet" href="./css/header.css" />
   <link rel="stylesheet" href="./css/index.css" />
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/biblioteca.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <header>
-
-
     <nav>
       <ul>
         <li>
-          <a href="./index.html">Home</a>
+          <a class="tituloHeader" href="./index.html">Home</a>
           <ul>
             <li><a href="./pages/carreiras.html">Carreira</a></li>
             <li><a href="./pages/carreiras.html">Estágio</a></li>
             <li><a href="./pages/simulado.html">Simulado</a></li>
-            <li><a href="#">Entrevistas</a></li>
+            <li><a href="./pages/dicas.html">Entrevistas</a></li>
             <li><a href="./pages/dicas.html">Dicas</a></li>
             <li><a href="./pages/sobrenos.html">Sobre</a></li>
           </ul>
         </li>
         <li>
-          <a href="#">Matemática</a>
+          <a class="tituloHeader" href="#">Matemática</a>
           <ul>
             <li><a href="#">Portal Principal</a></li>
             <li><a href="#">Português</a></li>
@@ -50,7 +52,7 @@
     </nav>
 
     <div class="logo">
-      <img class="iconeimg" src="imgHeader/logosesisenai.png" alt="Logo FIESP SESI SENAI" width="100" />
+      <img class="logoimg" src="imgHeader/logosesisenai.png" alt="Logo FIESP SESI SENAI" width="100" />
 
       <img src="./imgHeader/noturno.png" alt=" icone" class="lua" id="icone">
       <script src="./script.js"></script>
@@ -61,36 +63,60 @@
 
   </header>
 
-  <nav class="main-title">
-    <h1>Matemática</h1>
-    <img src="./imgHome/calculadora.png" alt="calculadora" />
-  </nav>
+  <div class="titulo">
+    <h1> Matemática</h1>
+    <img src="./imgHome/calculadora.png" alt="calculadora" class="calculadora">
+  </div titulo>
 
-  <main class="news-img-content">
-    <div class="overlay"></div>
-    <div class="news-item-1">
-      <img src="./imgHome/menino.PNG" alt="Garoto viraliza resolvendo questões de exatas do ITA" />
-      <p class="main-content">
-        Garoto viraliza<br> resolvendo questões de<br> exatas do ITA
-      </p>
-    </div>
 
-    <div class="news-item-2">
-      <img src="./imgHome/professora.PNG" alt="'Supergraduação' para formar cientistas em SP tem explosão de procura no
-  vestibular" />
-      <p class="main-content">
-        'Supergraduação' para formar<br> cientistas em SP tem explosão de<br> procura no
-        vestibular
-      </p>
+  <div id="carouselExampleCaptions" class="carousel slide noticias">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imgHome/menino.jpg" class="d-block w-100 imagem" alt="Menino viraliza">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> Garoto de 14 anos viraliza no TikTok resolvendo questões de exatas do ITA, vestibular mais difícil do
+            país </h5>
+          <p>Gustavo usa uma lousa branca na dispensa de casa para ajudar pessoas com dificuldade em matemática.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgHome/professor.jpg" class="d-block w-100 imagem" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Partiu estudar matemática? EX-BBB Gil do Vigor surpreende e lança série de aulas gratuitas com foco no
+            Enem</h5>
+          <p>O projeto, disponível no YouTube, oferece conteúdo acessível e exercícios práticos, focando em tópicos
+            frequentes do exame..</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imgHome/grafico.jpg" class="d-block w-100 imagem" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Enem: o que mais cai em Matemática? Saiba o que estudar</h5>
+          <p>O GLOBO produziu um Guia de Estudos do Enem completo para ajudar estudantes na preparação para a prova.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden ">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <div class="news-item-3">
-      <img src="./imgHome/grafic0_00.png" alt="O que mais aparece de Matemática no ENEM e nos vestibulares" />
-      <p class="main-content">
-        O que mais cai <br>na prova de Matemática <br>do Enem?
-      </p>
-    </div>
-  </main>
+
+
+
 
   <div class="more-news-content">
     <a href="./pages/noticias.html" class="more-news">
@@ -98,39 +124,20 @@
     </a>
   </div>
 
-  <div class="calendar-content">
-    <h1 class="calendar-title"><b> CALENDÁRIO DE PROVAS E VESTIBULARES</b></h1>
-    <img class="calendario-img" src="./imgHome/calendario.png" alt="calendario" />
-  </div>
-
-  <footer>
-
-    <div class="footer-content">
-      <div class="footer-links">
 
 
-        <a href="#">INSTITUCIONAL</a>
-        <a href="#">LICITAÇÕES</a>
-        <a href="#">POLÍTICA DE PRIVACIDADE</a>
-        <a href="#">PERGUNTAS FREQUENTES</a>
-        <a href="#">CONSULTAS AO ACERVO</a>
-        <a href="#">A LGPD no SESI-SP</a>
+  <div class="paiCalendario">
 
-      </div>
-
-      <div class="footer-social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-
+    <div class="tituloCalendario">
+      <h1 class="tituloCalendar"> CALENDÁRIO DE PROVAS E VESTIBULARES</h1>
     </div>
-  </footer>
 
-  <div class="footer-copyright">
-    <p>Copyright 2024 &copy; Todos os direitos reservados. &bull; FP90</p>
+    <div class="imagemCalendario">
+      <img src="./imgHome/calendario.png" alt="calendario" class="calendario">
+    </div>
 
   </div>
+
 
 </body>
 

@@ -28,7 +28,7 @@ body {
     height: 100px;
     width: 100px;
     display: flex;
-    
+
 
 }
 
@@ -157,16 +157,17 @@ h1 {
 
 
     .b1 {
-        flex-direction: column; /* Ajusta os cards para ficarem um embaixo do outro */
+        flex-direction: column;
+        /* Ajusta os cards para ficarem um embaixo do outro */
         padding-right: 0;
     }
 
 
- .arrow2{
+    .arrow2 {
 
         width: 30px;
         height: 30px;
- }
+    }
 
 
     .b1 img.arrow {
@@ -181,7 +182,7 @@ h1 {
         font-size: 1.2rem;
     }
 
-    
+
 
 
     .b1 h3 {
@@ -201,10 +202,10 @@ h1 {
 }
 
 @media (max-width: 1140px) {
-    .arrow2{
+    .arrow2 {
 
         width: 40px;
         height: 40px;
- }
+    }
 
 }

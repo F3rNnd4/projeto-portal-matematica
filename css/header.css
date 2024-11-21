@@ -8,29 +8,36 @@ body {
 
 header {
     background-color: #E30613;
+    width: 100%;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    margin-top: 60px;
+    margin-top: 6rem;
+    height: 10rem;
+}
+
+.tituloHeader {
+    font-size: 1.4rem;
+    margin-left: 3rem;
 }
 
 .logo {
-display: flex;
-flex-direction: row-reverse;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
 
 .lua {
-    width: 3rem;
+    width: 4rem;
     height: auto;
+    cursor: pointer;
 }
 
 .logoimg {
-width: 80px;
-height: auto;
+    width: 10rem;
+    height: 8rem;
 }
 
 /* Navegação */
@@ -63,7 +70,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #ffffff;
-    color:#E30613;
+    color: #E30613;
 }
 
 /* Dropdown */
@@ -73,9 +80,10 @@ nav ul li ul {
     top: 100%;
     left: 0;
     background-color: #E30613;
-    padding: 10px;
+    padding: 0.5rem;
     list-style: none;
-    width: 150px;
+    width: 12rem;
+    font-size: 1.3rem;
 }
 
 nav ul li:hover ul {
@@ -84,7 +92,7 @@ nav ul li:hover ul {
 
 nav ul li ul li {
     margin: 0;
-    padding:10px ;
+    padding: 10px;
 }
 
 nav ul li ul li a {
@@ -95,13 +103,25 @@ nav ul li ul li a {
 
 nav ul li ul li a:hover {
     background-color: #ffffff;
-    color:#E30613;
-    ; 
+    color: #E30613;
+    ;
 }
 
-.noturno {
-    width: 2rem;
-    height: auto;
-    border-radius: 50%;
-    cursor: pointer;
+@media screen and (max-width:768px) {
+    .tituloHeader {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+
+    header {
+        background-color: #E30613;
+        width: 100%;
+        color: #ffffff;
+        margin-top: 6rem;
+        height: 10rem;
+    }
+
+    .logo {
+        width: 2rem;
+    }
 }
