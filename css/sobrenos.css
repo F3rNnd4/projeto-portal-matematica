@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    overflow-x: hidden; /* Impede a criação de barra de rolagem horizontal */
+    overflow-x: hidden;
+    /* Impede a criação de barra de rolagem horizontal */
 }
 
 
@@ -35,7 +36,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: 20px auto;
-    gap: 20px; /* Espaçamento entre os cards e a seta */
+    gap: 20px;
+    /* Espaçamento entre os cards e a seta */
     max-width: 100%;
     padding: 20px;
 }
@@ -93,16 +95,17 @@ body {
 .b1 img.arrow {
     height: 100px;
     width: 100px;
-    margin-left: 20px; /* Espaçamento entre o card e a seta */
-    position:relative
+    margin-left: 20px;
+    /* Espaçamento entre o card e a seta */
+    position: relative
 }
 
 @media (max-width: 1036px) {
 
-  .seta-direita{
-    position: absolute;
-    margin-left: 70vw;
-    margin-right: 10vw;
-    margin-top: 130vh;
-  }
+    .seta-direita {
+        position: absolute;
+        margin-left: 70vw;
+        margin-right: 10vw;
+        margin-top: 130vh;
+    }
 }
