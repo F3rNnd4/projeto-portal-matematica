@@ -167,27 +167,26 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+
+
+
+@media (max-width: 575px) {
     .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .carreira-img img {
         width: 100%;
         height: auto;
     }
 
-}
-@media (max-width: 637px) {
-    .main-analista {
-        width: 20rem;
-    }
-
-    .carreira-img img {
-        width: 20rem;
-        height: 5rem;
-      
-    }
-
     .text2-analista {
-        margin-left: 25px;
-        margin-right: 25px;
-        
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14px; 
+        word-wrap: break-word; 
     }
 }
