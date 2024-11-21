@@ -57,6 +57,10 @@
     font-size: 10rem;
 }
 
+.more-news h3 {
+    font-size: 1.5rem;
+}
+
 .more-news:hover {
     background-color: #84050d;
 }
@@ -73,89 +77,28 @@
 
 .tituloCalendar {
     margin-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 .tituloCalendar:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 45%;
-        height: 0.063rem;
-        margin: 0.938rem;
-        margin-left: 2.813rem;
-        margin-top: 1.9rem;
-        background-color: var(--cor-vermelho);
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    height: 0.063rem;
+    margin: 0.938rem;
+    margin-left: 6rem;
+    margin-top: 1.9rem;
+    background-color: var(--cor-vermelho);
 }
 
 .imagemCalendario {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .calendario {
     width: 90%;
     height: auto;
-}
-
-@media screen and (max-width: 767px) {
-    
-    .tituloCalendar:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 45%;
-        height: 0.063rem;
-        margin: 0.938rem;
-        margin-left: 2.813rem;
-        margin-top: 1.9rem;
-        background-color: var(--cor-vermelho);
-    }
-    .calendar-content img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px ) {
-
-    .tituloCalendar {
-        font-size: 1.5rem;
-    }
-
-    .tituloCalendar:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 14%;
-        height: 0.063rem;
-        margin: 0.938rem;
-        margin-left: 2.813rem;
-        margin-top: 1.2rem;
-        background-color: var(--cor-vermelho);
-    }
-    .calendar-content img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    .tituloCalendar {
-        font-size: 2rem;
-    }
-
-    .tituloCalendar:after {
-        content: "";
-        display: inline-block;
-        position: absolute;
-        width: 18%;
-        height: 0.063rem;
-        margin: 0.938rem;
-        margin-left: 2.813rem;
-        margin-top: 1.2rem;
-        background-color: var(--cor-vermelho);
-    }
 }
