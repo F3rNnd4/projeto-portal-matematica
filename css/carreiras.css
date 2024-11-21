@@ -135,3 +135,42 @@ body {
         width: 60rem;
     }
 }
+
+
+@media (max-width: 992px) {
+    .main-analista {
+        width: 50rem;
+    }
+
+    .carreira-img img {
+        width: 50rem;
+    }
+
+    .text2-analista {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-analista {
+        width: 40rem;
+    }
+
+    .carreira-img img {
+        width: 40rem;
+    }
+
+    .text2-analista {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-analista {
+        width: 100%;
+        height: auto;
+    }
+
+}
