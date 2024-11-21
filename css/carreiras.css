@@ -124,3 +124,14 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+@media (max-width: 1200px) {
+    .main-analista {
+        width: 60rem;
+    }
+
+    .carreira-img img {
+        width: 60rem;
+    }
+}
