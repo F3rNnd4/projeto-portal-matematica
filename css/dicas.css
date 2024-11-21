@@ -7,7 +7,7 @@
         gap: 100px;
         padding: 80px 0;
     }
-    
+
     .box {
         background-color: #ffffff;
         width: 500px;
@@ -17,7 +17,7 @@
         height: 550px;
         padding: 30px;
     }
-    
+
     .image {
         width: 450px;
         height: 300px;
@@ -25,19 +25,19 @@
         background-position: center;
         border-radius: 8px;
     }
-    
+
     h2 {
         font-size: 1.5rem;
         color: #333;
         margin: 15px 0;
     }
-    
+
     p {
         color: #666;
         font-size: 0.9rem;
         margin-bottom: 30px;
     }
-    
+
     .btn {
         display: inline-block;
         padding: 10px 20px;
@@ -47,7 +47,7 @@
         text-decoration: none;
         font-weight: bold;
     }
-    
+
     .btn:hover {
         background-color: #b30612;
     }
@@ -56,7 +56,8 @@
 
     /* ..................................................Dicas..................................................................... */
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat",
+    sans-serif;
 }
 
 .tips-arrow {
@@ -105,9 +106,9 @@ main {
 .tip1 .img-tips img,
 .tip2 .img-tips img,
 .tip3 .img-tips img {
-  border-radius: 1.25rem 1.25rem 0 0;
-  width: 100%;
-  height: 20rem;
+    border-radius: 1.25rem 1.25rem 0 0;
+    width: 100%;
+    height: 20rem;
 }
 
 .information-title {
