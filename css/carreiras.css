@@ -137,7 +137,7 @@ body {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 1025px) {
     .main-analista {
         width: 50rem;
     }
@@ -152,7 +152,7 @@ body {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 863px) {
     .main-analista {
         width: 40rem;
     }
@@ -173,4 +173,21 @@ body {
         height: auto;
     }
 
+}
+@media (max-width: 637px) {
+    .main-analista {
+        width: 20rem;
+    }
+
+    .carreira-img img {
+        width: 20rem;
+        height: 5rem;
+      
+    }
+
+    .text2-analista {
+        margin-left: 25px;
+        margin-right: 25px;
+        
+    }
 }
