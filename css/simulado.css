@@ -1,186 +1,213 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .test {
-    font-size: 0.9rem;
-    color: #E30613;
-    margin: 1.87rem;
+  font-size: 0.9rem;
+  color: #e30613;
+  margin: 1.87rem;
 }
 
 .test-title:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 80%;
-    height: 0.06rem;
-    margin: 0.8rem 0 0 2.8rem;
-    background-color: #E30613;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 80%;
+  height: 0.06rem;
+  margin: 0.8rem 0 0 2.8rem;
+  background-color: #e30613;
 }
 
 .container-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    gap: 1rem;
-    background-color: #E30613;
-    width: 100%;
-    height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  background-color: #e30613;
+  width: 100%;
+  height: 3rem;
 }
 
 .algebra-container {
-    width: 10rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 2vh;
+  width: 10rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 2vh;
 }
 
 .geometria-container {
-    width: 10rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 2vh;
+  width: 10rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 2vh;
 }
 
 .trigonometria-container {
-    width: 10rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 2vh;
+  width: 10rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 2vh;
 }
 
 .funcoes-container {
-    width: 12rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 2vh;
+  width: 12rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 2vh;
 }
 
 .estatistica-container {
-    width: 15rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 1.8vh;
+  width: 15rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 1.8vh;
 }
 
 .financeira-container {
-    width: 15rem;
-    height: 60%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.25rem;
-    font-size: 1.8vh;
+  width: 15rem;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.25rem;
+  font-size: 1.8vh;
 }
 
 .subject-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #E30613;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e30613;
 }
 
 .all-questions {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
 }
 
 .question-card {
-    width: 100%;
-    height: 50%;
-    padding: 0 0 0 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  height: 50%;
+  padding: 0 0 0 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .question-card h2 {
-    color: #E30613;
+  color: #e30613;
 }
 
 .answer-options {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .option {
-    width: 90%;
-    height: 3vh;
-    display: flex;
-    align-items: center;
-    border-radius: 1.25rem;
-    border: 0.1vh solid black;
+  width: 90%;
+  height: 3vh;
+  display: flex;
+  align-items: center;
+  border-radius: 1.25rem;
+  border: 0.1vh solid black;
 }
 
 .option:hover {
-    background-color: rgb(223, 221, 221);
-    color: black;
+  background-color: rgb(223, 221, 221);
+  color: black;
 }
 
 .answer {
-    font-size: 0.9rem;
-    color: #E30613;
-    margin: 1.87rem;
+  font-size: 0.9rem;
+  color: #e30613;
+  margin: 1.87rem;
 }
 
 .answer-title:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 80%;
-    height: 0.06rem;
-    margin: 0.8rem 0 0 2.8rem;
-    background-color: #E30613;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 80%;
+  height: 0.06rem;
+  margin: 0.8rem 0 0 2.8rem;
+  background-color: #e30613;
 }
 
 .answers {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .answers-card {
-    width: 95%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 95%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .answers-card h2 {
-    color: #E30613;
+  color: #e30613;
+}
+
+/**************/
+/* Details */
+/**************/
+details {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: #f8f7F4;
+  width: 90%;
+
+}
+
+summary {
+  font-weight: bold;
+  margin: 0.1em 0.1em 0;
+  padding: 0.2em;
+  color: black;
+}
+
+details[open] {
+  padding: 0.2em;
+}
+
+details[open] summary {
+  border-bottom: 0.5px solid #aaa;
+  margin-bottom: 0.5em;
 }

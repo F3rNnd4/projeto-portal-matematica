@@ -1,150 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-
-    .container {
-        display: flex;
-        justify-content: center;
-        gap: 100px;
-        padding: 80px 0;
-    }
-    
-    .box {
-        background-color: #ffffff;
-        width: 500px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        height: 550px;
-        padding: 30px;
-    }
-    
-    .image {
-        width: 450px;
-        height: 300px;
-        background-size: cover;
-        background-position: center;
-        border-radius: 8px;
-    }
-    
-    h2 {
-        font-size: 1.5rem;
-        color: #333;
-        margin: 15px 0;
-    }
-    
-    p {
-        color: #666;
-        font-size: 0.9rem;
-        margin-bottom: 30px;
-    }
-    
-    .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        color: #ffffff;
-        background-color: #E30613;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    
-    .btn:hover {
-        background-color: #b30612;
-    }
-    
-    /* ................................................          Dicas..................................................................... */
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 80px 0;
+}
+
+.box {
+  background-color: #ffffff;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.219);
+  text-align: center;
+  height: 550px;
+  padding: 30px;
+}
+
+.image {
+  width: 450px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 15px 0;
+}
+
+p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #e30613;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #b30612;
+}
+
+/* ................................................Dicas..................................................................... */
+
 .tips-arrow {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 0 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 0 1rem;
 }
 
 .tips-arrow img {
-    width: 6.25rem;
-    padding-left: 1 1rem 1 1; ;
+  width: 6.25rem;
+  padding-left: 1 1rem 1 1;
 }
 
 .tips {
-    font-size: 0.9rem;
-    color: #E30613;
-    margin: 30px;
-    padding-left: 1 1rem 1 1; ;
+  font-size: 0.9rem;
+  color: #e30613;
+  margin: 30px;
+  padding-left: 1 1rem 1 1;
 }
 
 .tips-title:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 70%;
-    height: 0.06rem;
-    margin: 0.8rem 0 0 2.8rem;
-    background-color: #E30613;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 70%;
+  height: 0.06rem;
+  margin: 0.8rem 0 0 2.8rem;
+  background-color: #e30613;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tip1,
 .tip2,
 .tip3 {
-    width: 100%;
-    height: 40rem;
-    background-color: #F8F7F4;
-    border-radius: 1.25rem;
-    margin: 2rem 0 0 0;
+  width: 100%;
+  height: 40rem;
+  background-color: #f8f7f4;
+  border-radius: 1.25rem;
+  margin: 2rem 0 0 0;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.219);
 }
 
-.tip1 .img-tips img {
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 100%;
-    height: 20rem;
-}
-
-.tip2 .img-tips img {
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 100%;
-    height: 20rem;
-}
-
+.tip1 .img-tips img,
+.tip2 .img-tips img,
 .tip3 .img-tips img {
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 100%;
-    height: 20rem;
+  border-radius: 1.25rem 1.25rem 0 0;
+  width: 100%;
+  height: 20rem;
 }
 
 .information-title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .information-tips {
-    margin: 0 0 2rem 5rem;
+  margin: 0 0 2rem 5rem;
 }
 
 .botao a,
 button {
-    width: 80%;
-    height: 2rem;
-    border: none;
-    border-radius: 1.25rem;
-    background-color: #E30613;
-    color: white;
-    text-decoration: none;
-    font-size: 1.12rem;
-    font-weight: bold;
-    display: block;
-    margin: 0 auto;
+  width: 80%;
+  height: 2rem;
+  border: none;
+  border-radius: 1.25rem;
+  background-color: #e30613;
+  color: white;
+  text-decoration: none;
+  font-size: 1.12rem;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
 }
 
 .botao button:hover {
-    background-color: #b30612;
-    width: 100%;
+  background-color: #b30612;
+  width: 100%;
 }
