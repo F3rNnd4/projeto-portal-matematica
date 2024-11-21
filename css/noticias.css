@@ -42,7 +42,6 @@ body {
     display: flex;
     width: 80%;
     height: 100%;
-    background-color: #ffffff;
     gap: 6rem;
     align-items: center;
     align-content: stretch;
@@ -144,7 +143,6 @@ a {
 .quadrado14:hover,
 .quadrado15:hover {
     background-color: #b6b6b62c;
-    transition: 200ms;
-    width: 27rem;
-    height: 21rem;
+    transition: 300ms;
+    transform: scale(1.05);
 }
