@@ -124,3 +124,69 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+@media (max-width: 1200px) {
+    .main-analista {
+        width: 60rem;
+    }
+
+    .carreira-img img {
+        width: 60rem;
+    }
+}
+
+
+@media (max-width: 1025px) {
+    .main-analista {
+        width: 50rem;
+    }
+
+    .carreira-img img {
+        width: 50rem;
+    }
+
+    .text2-analista {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 863px) {
+    .main-analista {
+        width: 40rem;
+    }
+
+    .carreira-img img {
+        width: 40rem;
+    }
+
+    .text2-analista {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 575px) {
+    .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .carreira-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text2-analista {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14px; 
+        word-wrap: break-word; 
+    }
+}
