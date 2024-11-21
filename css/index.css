@@ -71,25 +71,27 @@
 }
 
 .tituloCalendario {
-    padding: 1rem;
     color: var(--cor-vermelho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tituloCalendar {
-    margin-left: 2rem;
-    padding-bottom: 2rem;
+    font-size: 2rem;
 }
 
-.tituloCalendar:after {
-    content: "";
-    display: inline-block;
-    position: relative;
-    width: 45%;
-    height: 0.063rem;
-    margin: 0.938rem;
-    margin-left: 6rem;
-    margin-top: 1.9rem;
-    background-color: var(--cor-vermelho);
+.pailinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha  {
+    color: var(--cor-vermelho);
+    width: 80%;
+    border-bottom: var(--cor-vermelho) 0.150rem solid;
+    margin-bottom: 1rem;
 }
 
 .imagemCalendario {
@@ -99,6 +101,6 @@
 }
 
 .calendario {
-    width: 90%;
+    width: 70%;
     height: auto;
 }

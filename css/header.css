@@ -13,13 +13,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6rem;
-    height: 10rem;
+    margin-top: 4rem;
+    height: 8rem;
+    padding: 2rem;
 }
 
 .tituloHeader {
     font-size: 1.4rem;
-    margin-left: 3rem;
+    margin: 1rem;
 }
 
 .logo {
@@ -36,8 +37,9 @@ header {
 }
 
 .logoimg {
-    width: 10rem;
-    height: 8rem;
+    width: 7rem;
+    height: 6.570rem;
+    margin-right: 2rem;
 }
 
 /* Navegação */
@@ -51,7 +53,6 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    margin: 0;
     padding: 0;
 }
 
@@ -65,7 +66,7 @@ nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    padding: 5px 10px;
+
 }
 
 nav ul li a:hover {
