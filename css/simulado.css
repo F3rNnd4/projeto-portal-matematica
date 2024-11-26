@@ -211,3 +211,38 @@ details[open] summary {
   border-bottom: 0.5px solid #aaa;
   margin-bottom: 0.5em;
 }
+
+/* Responsividade para telas menores*/
+
+@media (max-width: 768px) {
+  .container-title {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .container-title div {
+    width: 80%;
+    font-size: 3vw;
+  }
+
+  .option {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-title div {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  .all-questions {
+    width: 95%;
+  }
+
+  .option {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+  }
+}
