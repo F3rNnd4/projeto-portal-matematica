@@ -32,7 +32,7 @@
   height: 3rem;
 }
 
-.algebra-container {
+.algebra-container, .geometria-container, .trigonometria-container {
   width: 10rem;
   height: 60%;
   background-color: #ffffff;
@@ -43,27 +43,6 @@
   font-size: 2vh;
 }
 
-.geometria-container {
-  width: 10rem;
-  height: 60%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.25rem;
-  font-size: 2vh;
-}
-
-.trigonometria-container {
-  width: 10rem;
-  height: 60%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.25rem;
-  font-size: 2vh;
-}
 
 .funcoes-container {
   width: 12rem;
@@ -76,7 +55,7 @@
   font-size: 2vh;
 }
 
-.estatistica-container {
+.estatistica-container, .financeira-container {
   width: 15rem;
   height: 60%;
   background-color: #ffffff;
@@ -87,15 +66,9 @@
   font-size: 1.8vh;
 }
 
-.financeira-container {
-  width: 15rem;
-  height: 60%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1.25rem;
-  font-size: 1.8vh;
+.container-title a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .subject-title {
