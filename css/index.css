@@ -16,25 +16,26 @@
     justify-content: center;
     text-align: center;
     margin-top: 1rem;
+    gap: 1rem;
 }
 
 .titulo h1 {
     color: var(--cor-vermelho);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .calculadora {
-    margin-top: 1.7rem;
+    margin-top: 1rem;
     width: auto;
-    height: 3rem;
+    height: 5rem;
 }
 
 .noticias {
-    margin: 2rem 7rem 2rem 7rem
+    margin: 4rem;
 }
 
 .imagem {
-    height: 40rem;
+    height: 60rem;
 }
 
 .more-news-content {
@@ -75,11 +76,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+
 }
 
 .tituloCalendar {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .pailinha {
@@ -92,7 +93,8 @@
     color: var(--cor-vermelho);
     width: 90%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .imagemCalendario {

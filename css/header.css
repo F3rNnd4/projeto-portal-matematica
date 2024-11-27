@@ -1,128 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
-header {
-    background-color: #E30613;
+:root {
+    --cor-vermelho: #E30613;
+    --cor-branco: white; 
+}
+
+.paiHeader {
     width: 100%;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
     height: 8rem;
-    padding: 2rem;
-}
-
-.tituloHeader {
-    font-size: 1.4rem;
-    margin: 1rem;
-}
-
-.logo {
+    background-color: var(--cor-vermelho);
+    margin-top: 5.5rem;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+.navegation {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;    
     justify-content: center;
     align-items: center;
 }
 
-.lua {
-    width: 4rem;
+.navegationSite {
+    width: 35%;
+    height: 25%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloNav {
+    font-size: 1.5rem;
+    color: var(--cor-branco);
+}
+
+.navegationMateria {
+    width: 35%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconesDiv {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.iconesFilho { 
+    width: 20%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;  
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.iconeScript {
+    display: flex;
+    width: 10%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.scriptImg {
+    height: 60%;
     cursor: pointer;
 }
 
-.logoimg {
-    width: 7rem;
-    height: 6.570rem;
-    margin-right: 2rem;
-}
-
-/* Navegação */
-.nav {
+.iconeSenai {
     display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 200;
+    width: 40%;
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center     ;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-}
-
-nav ul li {
-    margin-left: 55px;
-    position: relative;
-    z-index: 200;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-
-}
-
-nav ul li a:hover {
-    background-color: #ffffff;
-    color: #E30613;
-}
-
-/* Dropdown */
-nav ul li ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #E30613;
-    padding: 0.5rem;
-    list-style: none;
-    width: 12rem;
-    font-size: 1.3rem;
-}
-
-nav ul li:hover ul {
-    display: block;
-}
-
-nav ul li ul li {
-    margin: 0;
-    padding: 10px;
-}
-
-nav ul li ul li a {
-    padding: 5px 10px;
-    display: block;
-    color: #ffffff;
-}
-
-nav ul li ul li a:hover {
-    background-color: #ffffff;
-    color: #E30613;
-    ;
-}
-
-@media screen and (max-width:768px) {
-    .tituloHeader {
-        font-size: 1.2rem;
-        margin-left: 1rem;
-    }
-
-    header {
-        background-color: #E30613;
-        width: 100%;
-        color: #ffffff;
-        margin-top: 6rem;
-        height: 10rem;
-    }
-
-    .logo {
-        width: 2rem;
-    }
+.senaiImg {
+    height: 90%;
 }
