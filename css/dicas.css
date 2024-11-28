@@ -67,7 +67,7 @@
 }
 
 .tips-arrow img {
-    width: 6.25rem;
+    width: 5rem;
 }
 
 .tips {
@@ -142,10 +142,25 @@ button {
 
 /* Responsividade para tablets */
 @media (max-width: 1024px) {
+    .tips-section {
+        flex-direction: column;
+        gap: 50px;
+        padding: 40px 20px;
+         display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
     .container {
         flex-direction: column;
         gap: 50px;
         padding: 40px 20px;
+         display: flex;
+        align-items: center;
     }
 
     .box {
