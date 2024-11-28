@@ -120,11 +120,12 @@ a {
 .quadrado14 img,
 .quadrado15 img {
     width: 100%;
-    height: auto;
     border-radius: 0.65rem 0.65rem 0 0;
     align-self: flex-start;
     margin: 0;
     display: flex;
+    height: 15rem;
+    width: 43.6vh;
 }
 
 .quadrado1:hover,
