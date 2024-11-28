@@ -75,6 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .tituloCalendar {
@@ -89,9 +90,9 @@
 
 .linha  {
     color: var(--cor-vermelho);
-    width: 80%;
+    width: 90%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .imagemCalendario {
@@ -103,4 +104,10 @@
 .calendario {
     width: 70%;
     height: auto;
+}
+
+@media screen and (max-width: 769px ) {
+    .tituloCalendar {
+        font-size: 1.5rem;
+    }
 }
