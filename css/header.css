@@ -232,3 +232,20 @@
     
 }
 
+@media screen and (min-width: 769px) and (max-width: 1224px) {
+
+    .navegation {
+        gap: 5rem;
+        margin-left: 3.3rem;
+    }
+    
+    .iconesDiv {
+        gap: 2rem;
+        margin-right: 0.3rem;
+    }
+
+    .iconeScript {
+        margin-right: 1rem;
+    }
+}
+

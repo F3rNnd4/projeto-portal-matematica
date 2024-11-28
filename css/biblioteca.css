@@ -534,10 +534,6 @@ legend {
     }
 }
 
-legend+* {
-    clear: left
-}
-
 ::-webkit-datetime-edit-day-field,
 ::-webkit-datetime-edit-fields-wrapper,
 ::-webkit-datetime-edit-hour-field,
