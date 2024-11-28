@@ -31,11 +31,14 @@
 }
 
 .noticias {
-    margin: 4rem;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
 }
 
 .imagem {
-    height: 60rem;
+    height: 40rem;
 }
 
 .more-news-content {
@@ -109,6 +112,10 @@
 }
 
 @media screen and (max-width: 769px ) {
+
+.imagem {
+    height: 60rem;
+}
 
     .texto-carrossel {
         z-index: 100;
