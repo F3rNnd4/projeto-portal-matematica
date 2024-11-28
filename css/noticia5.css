@@ -35,7 +35,6 @@ p{
     text-align: justify;
     margin-left: 4rem;
     margin-right: 4rem;
-    font-size: 20px;
 }
 
 h2 {
@@ -62,7 +61,7 @@ h2 {
 }
 
 .img {
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 5%;
 }
@@ -72,12 +71,25 @@ h2 {
     height: 2rem;
     display: flex;
     justify-content: flex-end;
+
 }
 
-.texto {
+.list h3 {
+    color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    padding: 1rem;
+    font-size: 1.5rem;
+    padding: 0.6rem;
+}
+
+.list p {
+    color: rgb(0, 0, 0);
+    display: flex;
+    font-size: 1.2rem;
+    padding-bottom: 3.4rem;
+
+}
+
+.tituloh2 {
+    padding: 3rem;
+    gap: 1rem;
 }
