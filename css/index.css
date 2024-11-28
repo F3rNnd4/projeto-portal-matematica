@@ -104,12 +104,25 @@
 }
 
 .calendario {
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 
 @media screen and (max-width: 769px ) {
+
+    .texto-carrossel {
+        z-index: 100;
+    }
+
     .tituloCalendar {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .tituloCalendario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
     }
 }

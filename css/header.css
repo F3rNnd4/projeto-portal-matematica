@@ -32,7 +32,7 @@
 .navegationSite {
     width: 35%;
     height: 25%;
-    margin: 2rem;
+    margin: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,9 @@
 .tituloNav {
     font-size: 1.5rem;
     color: var(--cor-branco);
+    cursor: pointer;
 }
+
 
 .navegationMateria {
     width: 35%;
@@ -81,6 +83,7 @@
 .scriptImg {
     height: 60%;
     cursor: pointer;
+    margin-right: 5rem;
 }
 
 .iconeSenai {
@@ -94,4 +97,53 @@
 
 .senaiImg {
     height: 90%;
+}
+
+.dropdown-navegacao {
+    background-color: #E30613;
+}
+
+.nav-menu {
+    background-color: var(--cor-vermelho);
+}
+
+
+@media screen and (max-width: 769px) {
+    
+
+    .paiHeader {
+        flex-direction: column;
+        margin-bottom: 9rem;
+    }
+
+    .iconesDiv {
+        background-color: var(--cor-vermelho);
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .iconesFilho {
+        gap: 8rem;
+        margin-left: 11rem;
+    }
+
+    .navegation {
+        padding: 0;
+        margin: 0;       
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .navegationSite {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
