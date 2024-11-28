@@ -36,6 +36,7 @@ p{
     margin-left: 4rem;
     margin-right: 4rem;
     font-size: 20px;
+    padding: 1rem;
 }
 
 h2 {
@@ -74,10 +75,12 @@ h2 {
     justify-content: flex-end;
 }
 
-.texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    padding: 1rem;
+a:hover {
+    color: #cc000e;
+    transition: 300ms;
+}
+
+.videoGil {
+    color: var(--cor-vermelho);
+    text-decoration: none;
 }
