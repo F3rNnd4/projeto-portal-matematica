@@ -31,10 +31,14 @@
 }
 
 .noticias {
-    margin-bottom: 3rem;
+        margin-bottom: 3rem;
         margin-top: 4rem;
         margin-left: 2rem;
         margin-right: 2rem;
+}
+
+h5 {
+    font-weight: bold;
 }
 
 .imagem {
@@ -120,10 +124,6 @@
 .imagem {
     height: 60rem;
 }
-
-    .texto-carrossel {
-        z-index: 100;
-    }
 
     .tituloCalendar {
         font-size: 1.8rem;

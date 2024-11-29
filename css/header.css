@@ -140,13 +140,19 @@
     display: none;
 }
 
-@media screen and (max-width: 769px) {
+.tituloNav a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
 
     .paiHeader{
         width: 100%;
         margin-top: 0;
         gap: 0;
         padding: 0;
+        margin-bottom: 2rem;
     }
 
     .navegation{
@@ -197,7 +203,7 @@
 
     .navegation {
         gap: 7rem;
-        margin-left: 3.3rem;
+        margin-left: 5rem;
     }
     
     .iconesDiv {
