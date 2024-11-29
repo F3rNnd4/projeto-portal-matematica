@@ -8,6 +8,10 @@
         padding: 80px 0;
     }
 
+    :root {
+        --cor-vermelho: #E30613;
+    }
+
     .box {
         background-color: #ffffff;
         width: 500px;
@@ -71,20 +75,42 @@
 }
 
 .tips {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
+    width: 100%;
     color: #E30613;
-    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+
 }
 
-.tips-title:after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    width: 70%;
-    height: 0.06rem;
-    margin: 0.8rem 0 0 2.8rem;
-    background-color: #E30613;
+.pai-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 100%;
 }
+
+.pailinha {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.linha  {
+    width: 98%;
+    border-bottom: var(--cor-vermelho) 0.150rem solid;
+    margin-right: 2rem;
+}
+
 
 main {
     display: flex;
