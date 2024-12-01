@@ -171,9 +171,7 @@
     height: 80%;
 }
 
-.dropdown-toggle {
-    display: none;
-}
+
 
 .tituloNav a {
     cursor: pointer;
@@ -183,13 +181,11 @@
 @media screen and (max-width: 768px) {
 
     .paiHeader{
-        top: 0;
-        position: fixed;
         width: 100%;
         margin-top: 0;
         gap: 0;
         padding: 0;
-        margin-bottom: 7rem;
+        margin-bottom: 2rem;
     }
 
     .navegation{
@@ -222,17 +218,8 @@
     .iconeSenai {
         margin-right: 1rem;
     }
+    
 
-
-
-
-    .dropdown-toggle {
-        background: none;
-        border: none;
-        color: var(--cor-branco);
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1800px) {

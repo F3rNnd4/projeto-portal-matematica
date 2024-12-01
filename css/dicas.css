@@ -5,6 +5,11 @@
         padding: 0;
     }
 
+    
+    :root {
+        --cor-vermelho: #E30613;
+    }
+
     .container {
         margin-top: 5rem;
         width: 100%;
@@ -13,9 +18,6 @@
         align-items: center;
     }
 
-    :root {
-        --cor-vermelho: #E30613;
-    }
 
     .box {
         width: 25%;
@@ -48,7 +50,7 @@
         text-align: justify;
     }
 
-    .btn {
+    .btn , .btn2 , .btn3 {
         padding: 1rem;
         text-align: center  ;
         color: #ffffff;
@@ -58,7 +60,7 @@
         font-weight: bold;
     }
 
-    .btn:hover {
+    .btn:hover , .btn2:hover, .btn3:hover {
         background-color: #b30612;
     }
 
@@ -72,18 +74,6 @@
 .tips-arrow img {
     width: 5rem ;
     margin: 2rem;
-}
-
-.tips {
-    font-size: 1.4rem;
-    width: 100%;
-    color: #E30613;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 .pai-title {
@@ -115,9 +105,23 @@ main {
     align-items: center;
 }
 
+.tips {
+    font-size: 1.4rem;
+    width: 100%;
+    color: #E30613;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
 .tip1,
 .tip2,
 .tip3 {
+    text-align: justify;
     width: 100%;
     height: 40rem;
     background-color: #F8F7F4;
@@ -139,8 +143,12 @@ main {
     justify-content: center;
 }
 
+
+
 .texto {
-    margin: 0;
+    text-align: center;
+    margin: 1.5rem;
+
 }
 
 .botao a,
@@ -185,7 +193,7 @@ button {
         height: 30rem;
     }
 
-    .btn {
+    .btn , .btn2 , .btn3 {
         font-size: 1.5rem;
         padding: 1.475rem;
         padding-left: 5rem;
@@ -224,17 +232,18 @@ button {
 
 @media (max-width: 768px) {
 
-
-
     .container {
-        margin-top: 13rem;
-        margin-bottom: 2rem;
+    margin-bottom: 2rem;
         gap: 8rem;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .btn , .btn2 , .btn3 {
+        margin-bottom: 2rem;
     }
 
     h2 {
@@ -247,7 +256,7 @@ button {
 
     }
 
-    .btn {
+    .btn , .btn2 , .btn3 {
         font-size: 1.5rem;
         padding: 1.475rem;
         padding-left: 5rem;
@@ -271,9 +280,7 @@ button {
         font-size: 0.8rem;
     }
 
-    .tips-section {
-        padding: 1rem;
-    }
+
 
     .texto {
         margin: 1rem;
