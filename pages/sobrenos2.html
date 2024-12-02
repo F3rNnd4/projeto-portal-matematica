@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre Nós</title>
   <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/headerRes.css">
   <link rel="stylesheet" href="../css/sobrenos2.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="shortcut icon" type="imagex/png" href="../imgHeader/senai (1).ico (1).ico">
@@ -21,7 +22,21 @@
         <div class="navegationSite">
           
             <h2 class="tituloNav"> Sobre </h2>
-            <button class="dropdown-toggle"></button>
+
+            <details>
+              <summary class="titulo-nav">Sobre</summary>
+    
+              <ul class="drop">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/dicas.html">Dicas</a></li>
+                <li><a href="../pages/noticias.html">Notícias</a></li>
+                <li><a href="../pages/carreiras.html">Estágios</a></li>
+                <li><a href="../pages/carreiras.html">Carreiras</a></li>
+                <li><a href="../pages/simulado.html">Simulado</a></li>
+                <li><a href="../pages/dicas.html">Entrevistas</a></li>
+              </ul>
+            </details>
+
             <ul class="dropdown">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../pages/dicas.html">Dicas</a></li>
@@ -35,8 +50,27 @@
 
       <div class="navegationSite">
         <h2 class="tituloNav">Matemática</h2>
-        <button class="dropdown-toggle"></button>
-        
+
+        <details>
+          <summary class="titulo-nav">Matemática</summary>
+
+
+          <ul class="dropM">
+            <li><a href="" target="_blank">Portal Principal</a></li>
+            <li><a href="https://lp-projeto.vercel.app/" target="_blank">Português</a></li>
+            <li><a href="https://site-biologia-41g2.vercel.app/" target="_blank">Biologia</a></li>
+            <li><a href="https://site-historia-six.vercel.app/" target="_blank">História</a></li>
+            <li><a href="https://projeto-geografia.vercel.app/" target="_blank">Geografia</a></li>
+            <li><a href="https://portal-de-materias.vercel.app/" target="_blank">Química</a></li>
+            <li><a href="https://site-fisica.vercel.app/" target="_blank">Física</a></li>
+            <li><a href="https://site-ingles-theta.vercel.app/" target="_blank">Inglês</a></li>
+            <li><a href="https://site-filosofia.vercel.app/" target="_blank">Filosofia</a></li>
+            <li><a href="https://site-sociologia.vercel.app/" target="_blank">Sociologia</a></li>
+            <li><a href="https://portal-noticias-html.vercel.app/" target="_blank">Ed. Física e Artes</a></li>
+          </ul>
+
+        </details>        
+
         <ul class="dropdown">
           <li><a href="" target="_blank">Portal Principal</a></li>
           <li><a href="https://lp-projeto.vercel.app/" target="_blank">Português</a></li>
@@ -61,7 +95,7 @@
         <div class="iconeScript">
 
           <img class="scriptImg" src="../imgHeader/noturno.png" alt="Lua" id="icone">
-          <script src="../script.js"></script>
+
 
         </div>
 
@@ -118,5 +152,7 @@
 
 
 </body>
+
+<script src="../scripts/scriptSobre2.js"></script>
 
 </html>
