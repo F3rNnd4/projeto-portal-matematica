@@ -90,7 +90,7 @@
 
 .dropdown li:hover {
     border-radius: 5%;
-    background-color: #8B0000;
+    background-color: #ff0000;
 }
 
 .navegationSite:hover .dropdown {
@@ -111,7 +111,7 @@
 
 .dropdownM li:hover {
     border-radius: 5%;
-    background-color: #8B0000;
+    background-color: #ff0000;
 }
 
 .navegationSite:hover .dropdownM {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/noticias.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/headerRes.css">
     <link rel="shortcut icon" type="imagex/png" href="../imgHeader/senai (1).ico (1).ico">
 
 
@@ -22,7 +23,21 @@
             <div class="navegationSite">
               
                 <h2 class="tituloNav"><a style="color: white;" href="../pages/noticias.html"> Notícias</a></h2>
-                <button class="dropdown-toggle"></button>
+
+                <details>
+                    <summary class="titulo-nav">Notícias </summary>
+          
+                    <ul class="drop">
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="../pages/dicas.html">Dicas</a></li>
+                      <li><a href="../pages/sobrenos.html">Sobre</a></li>
+                      <li><a href="../pages/carreiras.html">Estágios</a></li>
+                      <li><a href="../pages/carreiras.html">Carreiras</a></li>
+                      <li><a href="../pages/simulado.html">Simulado</a></li>
+                      <li><a href="../pages/dicas.html">Entrevistas</a></li>
+                    </ul>
+                  </details>
+
                 <ul class="dropdown">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../pages/sobrenos.html">Sobre</a></li>
@@ -35,8 +50,28 @@
     
           <div class="navegationSite">
             <h2 class="tituloNav">Matemática</h2>
-            <button class="dropdown-toggle"></button>
-            
+
+            <details>
+          
+                <summary class="titulo-nav">Matemática</summary>
+      
+      
+                <ul class="dropM">
+                  <li><a href="" target="_blank">Portal Principal</a></li>
+                  <li><a href="https://lp-projeto.vercel.app/" target="_blank">Português</a></li>
+                  <li><a href="https://site-biologia-41g2.vercel.app/" target="_blank">Biologia</a></li>
+                  <li><a href="https://site-historia-six.vercel.app/" target="_blank">História</a></li>
+                  <li><a href="https://projeto-geografia.vercel.app/" target="_blank">Geografia</a></li>
+                  <li><a href="https://portal-de-materias.vercel.app/" target="_blank">Química</a></li>
+                  <li><a href="https://site-fisica.vercel.app/" target="_blank">Física</a></li>
+                  <li><a href="https://site-ingles-theta.vercel.app/" target="_blank">Inglês</a></li>
+                  <li><a href="https://site-filosofia.vercel.app/" target="_blank">Filosofia</a></li>
+                  <li><a href="https://site-sociologia.vercel.app/" target="_blank">Sociologia</a></li>
+                  <li><a href="https://portal-noticias-html.vercel.app/" target="_blank">Ed. Física e Artes</a></li>
+                </ul>
+      
+              </details>
+
             <ul class="dropdown">
               <li><a href="" target="_blank">Portal Principal</a></li>
               <li><a href="https://lp-projeto.vercel.app/" target="_blank">Português</a></li>
@@ -61,7 +96,7 @@
             <div class="iconeScript">
     
               <img class="scriptImg" src="../imgHeader/noturno.png" alt="Lua" id="icone">
-              <script src="../script.js"></script>
+
     
             </div>
     
@@ -78,11 +113,28 @@
       </header>
 
     <div class="header">
-        <a href="#" style="text-decoration: none;"><span class="carreira">NOTICIAS</span></a>
-        <span class="separator"></span>
-        <a href="#" style="text-decoration: none;">
-            <LEIA class="estagio">LEIA MAIS</span>
-        </a>
+
+
+        <div class="pai-title">
+
+            <h1><b> Notícias </b></h1>
+
+
+        </div>
+
+        <div class="pailinha">
+
+            <div class="linha animate__animated animate__fadeInLeft animate__delay-3s"> </div>
+
+          </div>
+
+          <div class="filho">
+
+            <h1><b> Notícias </b></h1>
+
+            
+           </div> 
+
     </div>
 
     <div class="main">
@@ -166,24 +218,25 @@
                     <h3>Enem 2024: principais fórmulas de Matemática para revisar antes da... </h3>
                 </div>
             </a>
-            <a href="#">
+            <a href="./noticia10.html">
                 <div class="quadrado10">
                     <div class="imgS3">
                         <img src="../imgNoticias/noticias-notaMx.avif"
                             alt="">
                     </div>
-                    <h3>Estudante que tirou nota máxima em Matemática no Enem...</h3>
+                    <h3>Estudante que tirou nota máxima em Matemática no Enem da dicas ...</h3>
                 </div>
             </a>
-            <a href="#">
+            <a href="./noticia11.html">
                 <div class="quadrado11">
                     <div class="imgS3">
                         <img src="../imgNoticias/noticias-bolsaEua.webp" alt="">
                     </div>
-                    <h3>Bolsa nos EUA, medalha de ouro em matemática e vesti...</h3>
+                    <h3>Medalhistas de matemática do Ceará se destacam no Brasil e no exterior
+                    </h3>
                 </div>
             </a>
-            <a href="#">
+            <a href="./noticia12.html">
                 <div class="quadrado12">
                     <div class="imgS3">
                         <img src="../imgNoticias/noticias-14anos.avif"
@@ -220,5 +273,7 @@
         </div>
     </div>
 </body>
+
+<script src="../scripts/scriptNoticias.js"></script>
 
 </html>
