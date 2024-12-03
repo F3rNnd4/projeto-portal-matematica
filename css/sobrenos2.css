@@ -61,13 +61,14 @@ h1 {
 
 .b1 h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 
 .b1 p {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
 }
 
 
@@ -104,10 +105,11 @@ h1 {
     border-radius: 10px;
     padding: 40px;
     width: 100%;
-    max-width: 200px;
+    max-width: 14rem;
     text-align: center;
     margin: 20px 0;
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.219);
+    height: 25rem;
 }
 
 
