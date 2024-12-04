@@ -56,18 +56,21 @@ body {
     color: black;
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
 
 }
 
 .text2-analista {
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding-top: 2rem;
 }
+    
 
 .analista-button {
     background-color: #e30613;
@@ -152,10 +155,8 @@ body {
     }
 }
 
-@media (max-width: 863px) {
-    .main-analista {
-        width: 40rem;
-    }
+@media (max-width: 862px) {
+   
 
     .carreira-img img {
         width: 40rem;
@@ -165,12 +166,7 @@ body {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
 
-
-
-
-@media (max-width: 575px) {
     .main-analista {
         width: 100%;
         height: auto;
@@ -178,16 +174,108 @@ body {
         box-sizing: border-box; 
     }
 
-    .carreira-img img {
-        width: 100%;
-        height: auto;
-    }
 
     .text2-analista {
         margin-left: 5px;
         margin-right: 5px;
         font-size: 14px; 
         word-wrap: break-word; 
+    }
+
+    
+}
+
+
+
+
+@media (max-width: 575px) {
+   
+
+    .carreira-img img {
+        width: 100%;
+    
+    }
+
+    .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+        height: 5rem;
+        
+    }
+
+    .text2-analista {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 14px;
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 854px) {
+    .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+       
+    }
+
+    .text2-analista {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-analista {
+        width: 100%;
+    
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+      
+    }
+
+    .text2-analista {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 0.9rem;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-analista {
+        width: 100%;
+       
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+      
+    }
+
+    .text2-analista {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 0.8rem;
+        word-wrap: break-word;
     }
 }
 
@@ -202,6 +290,7 @@ body {
     .carreira-img img {
         width: 100%;
         height: 5rem;
+        
     }
 
     .text2-analista {
