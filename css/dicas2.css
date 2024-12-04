@@ -173,7 +173,6 @@ button {
 
 @media screen and (min-width: 769px ) and (max-width: 1700px) {
 
-<<<<<<< HEAD
     .texto {
         margin: 1rem;
     }
@@ -305,137 +304,65 @@ button {
             width: 90%;
         }
     }
+    @media (max-width: 465px) and (min-width: 301px) {
+
+        .container {
+            margin-bottom: 1.5rem;
+            gap: 6rem;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
     
-=======
-.texto {
-    margin: 1rem;
-}
-
-    .container {
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-        gap: 8rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .box {
-        width: 80%;
-        height: 30rem;
-    }
-
-    .btn , .btn2 , .btn3 {
-        font-size: 1.5rem;
-        padding: 1.475rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        text-align: center;
-    }
-
-
-    .image {
-        width: 100%;
-        height: 12.5rem;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        margin-bottom: 3.5rem;
-        font-size: 1.4rem;
-        text-align: justify;
-    }
-
-    .tips-arrow img {
-        width: 3rem;
-        height: 3rem;
-        margin: 0;
-    }
-
+        .btn, .btn2, .btn3 {
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+            padding: 1.2rem;
+            padding-left: 4rem;
+            padding-right: 4rem;
+            text-align: center;
+        }
     
-    .pai-title {
-        margin: 0;
+        h2 {
+            font-size: 1.4rem;
+        }
+    
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+        }
+    
+        .box {
+            width: 85%;
+            height: 28rem;
+        }
+    
+        .image {
+            width: 100%;
+            height: 11rem;
+        }
+    
+        .tips {
+            font-size: 0.7rem;
+        }
+    
+        .texto {
+            margin: 0.75rem;
+        }
+    
+        .tip1, .tip2, .tip3 {
+            height: auto;
+        }
+    
+        .tip1 .img-tips img, .tip2 .img-tips img, .tip3 .img-tips img {
+            height: 8.5rem;
+        }
+    
+        .botao a, button {
+            font-size: 0.9rem;
+            width: 92%;
+        }
     }
-
-}
-
-@media (max-width: 768px) {
-
-    .container {
-    margin-bottom: 2rem;
-        gap: 8rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .btn , .btn2 , .btn3 {
-        margin-bottom: 2rem;
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        font-size: 1.4rem;
-        margin-bottom: 4rem;
-
-    }
-
-    .btn , .btn2 , .btn3 {
-        font-size: 1.5rem;
-        padding: 1.475rem;
-        padding-left: 5rem;
-        padding-right: 5rem;
-        text-align: center;
-    }
-
-
-    .box {
-        width: 80%;
-        height: 33rem;
-    }
-
-    .image {
-        width: 100%;
-        height: 12.5rem;
-    }
-
-
-    .tips {
-        font-size: 0.8rem;
-    }
-
-
-
-    .texto {
-        margin: 1rem;
-    }
-
-    .tip1,
-    .tip2,
-    .tip3 {
-        height: auto;
-    }
-
-    .tip1 .img-tips img,
-    .tip2 .img-tips img,
-    .tip3 .img-tips img {
-        height: 9.375rem;
-    }
-
-    .botao a,
-    button {
-        font-size: 1rem;
-        width: 90%;
-    }
-}
->>>>>>> 288023e22f42345fa4256a1d92f0553d01a018f7
+    
