@@ -211,3 +211,59 @@ body {
         word-wrap: break-word;
     }
 }
+
+    
+
+@media (max-width: 435px) {
+    .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 6px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+        height: 3rem;
+    }
+
+    .text2-analista {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+        word-wrap: break-word;
+    }
+
+    .analista-button, .analista-button12 {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 300px) {
+    .main-analista {
+        width: 100%;
+        height: auto;
+        padding: 4px;
+        box-sizing: border-box;
+    }
+
+    .carreira-img img {
+        width: 100%;
+        height: 3rem;
+    }
+
+    .text2-analista {
+        margin-left: 3px;
+        margin-right: 3px;
+        font-size: 10px;
+        word-wrap: break-word;
+    }
+
+    .analista-button, .analista-button12 {
+        width: 100%;
+        font-size: 12px;
+        padding: 8px;
+    }
+}
