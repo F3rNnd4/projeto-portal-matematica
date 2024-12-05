@@ -396,7 +396,7 @@
     align-items: center;
     text-align: center;
   }
-  
+
   .titulo {
     display: flex;
     justify-content: center;
@@ -404,7 +404,7 @@
     color: var(--cor-vermelho);
     margin-bottom: 1rem;
   }
-  
+
   .pailinha {
     width: 100%;
     height: 100%;
@@ -412,12 +412,12 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .linha {
     color: var(--cor-vermelho);
     width: 90%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
-  
+
   }
 
 }

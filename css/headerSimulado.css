@@ -1,4 +1,4 @@
-.detailsHeader{
+.detailsHeader {
     display: none;
 }
 
@@ -10,7 +10,7 @@
 
     }
 
-    .paiHeader{
+    .paiHeader {
         top: 0;
         width: 100%;
         margin-top: 0;
@@ -26,38 +26,38 @@
         display: none;
 
     }
-        
+
     .dropdownM {
         display: none;
     }
-    
-    
+
+
     .dropdown li {
         padding: 1rem;
         font-size: 1.2rem;
         font-weight: bold;
     }
-    
+
     .dropdown li a {
         text-decoration: none;
         display: block;
         color: white;
     }
-    
+
     .dropdown li:hover {
         border-radius: 5%;
         background-color: #8B0000;
     }
-    
+
     .navegationSite:hover .dropdown {
         display: none;
     }
-    
+
     .navegationSite:hover .dropdownM {
         display: none;
     }
 
-    .navegation{
+    .navegation {
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -79,8 +79,8 @@
         width: 10rem;
         z-index: 1000
     }
-    
-    
+
+
     .dropM {
         display: block;
         text-align: center;
@@ -97,11 +97,11 @@
     }
 
     .detalhesHeader .titulo-nav::-webkit-details-marker {
-        display: none; 
+        display: none;
     }
-    
+
     .detailsHeader .titulo-nav::marker {
-        display: none; 
+        display: none;
     }
 
 
@@ -120,13 +120,13 @@
         font-size: 1.2rem;
         font-weight: bold;
     }
-    
+
     .drop li a {
         text-decoration: none;
         display: block;
         color: white;
     }
-    
+
     .drop li:hover {
         border-radius: 5%;
         background-color: #8B0000;
@@ -138,13 +138,13 @@
         font-size: 1.2rem;
         font-weight: bold;
     }
-    
+
     .dropM li a {
         text-decoration: none;
         display: block;
         color: white;
     }
-    
+
     .dropM li:hover {
         border-radius: 5%;
         background-color: #8B0000;
