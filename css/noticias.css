@@ -165,36 +165,35 @@ a {
 }
 
 
+
 @media  screen and (max-width: 769px) {
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-}
-
-.pailinha {
-    width: 100%;
-}
-
-.linha {
-    width: 100%;
-    margin: 1rem;
-    margin-right: 0;
-}
-
-.filho {
-display: none;
-}
-
-.pai-title {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
-
-}
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .pailinha {
+        width: 100%;
+    }
+    
+    .linha {
+        width: 100%;
+        margin: 1rem;
+        margin-right: 0;
+    }
+    
+    .filho {
+    display: none;
+    }
+    
+    .pai-title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}    

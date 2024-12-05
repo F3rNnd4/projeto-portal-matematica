@@ -41,6 +41,17 @@
 
 }
 
+.aviso {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.aviso b {
+  font-size: 2rem;
+  color: var(--cor-vermelho);
+}
 
 .container-title {
   display: flex;
@@ -191,7 +202,7 @@
 /**************/
 /* Details */
 /**************/
-details {
+.detalhes {
   border: 1px solid #aaa;
   border-radius: 10px;
   background-color: #f8f7F4;
@@ -199,18 +210,18 @@ details {
 
 }
 
-summary {
+.summario {
   font-weight: bold;
   margin: 0.1em 0.1em 0;
   padding: 0.2em;
   color: black;
 }
 
-details[open] {
+.detalhes[open] {
   padding: 0.2em;
 }
 
-details[open] summary {
+.detalhes[open] summary {
   border-bottom: 0.5px solid #aaa;
   margin-bottom: 0.5em;
 }
