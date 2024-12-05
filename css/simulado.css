@@ -17,6 +17,10 @@
   flex-direction: row;
 }
 
+.test-title {
+  color: var(--cor-vermelho);
+}
+
 .titulo {
   display: flex;
   justify-content: center;
@@ -112,7 +116,7 @@
   font-size: 0.9rem
 }
 
-.subject-title {
+.subject-title b {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,8 +142,8 @@
   justify-content: center;
 }
 
-.question-card h2 {
-  color: #e30613;
+.question-number {
+  margin-bottom: 1vh;
 }
 
 .answer-options {
