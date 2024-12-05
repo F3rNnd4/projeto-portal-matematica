@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-   
+
+}
+
+:root {
+    --cor-vermelho: #E30613;
 }
 
 .paiTudo {
@@ -15,9 +19,6 @@
     align-items: center;
 }
 
-:root {
-    --cor-vermelho: #E30613;
-}
 
 .pailinha {
     display: flex;
@@ -25,35 +26,38 @@
     align-items: center;
 }
 
-.linha  {
+.linha {
     color: var(--cor-vermelho);
     width: 100%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
     margin-bottom: 2rem;
 }
 
-p{
+p {
     text-align: justify;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     margin-left: 4rem;
     margin-right: 4rem;
 }
 
-h2 , h3{
+h2,
+h3 {
     margin-bottom: 1rem;
     text-align: center;
 }
 
 .pai {
     width: 90%;
-    height: 80rem;  
+    height: 80rem;
 }
 
 .titulo {
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .tituloh1 {
@@ -67,18 +71,30 @@ h2 , h3{
     width: 80%;
     height: auto;
     border-radius: 2%;
-    margin-top:  1rem;
+    margin-top: 1rem;
 }
 
 .autor {
-    width: 94.5%;
+    width: 90%;
     height: 2rem;
     display: flex;
     justify-content: flex-end;
+    align-items: end    ;
     margin-top: 0;
     margin-bottom: 2rem;
 }
 
+.autorfilho {
+    height: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.autorP {
+    margin: 0;
+}
 
 .imgFormulas {
     margin: 0;
@@ -107,3 +123,84 @@ h2 , h3{
     height: auto;
 }
 
+.leia-mais {
+    width: 100%;
+    height: 8%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leia-mais-btn {
+    cursor: pointer;
+    width: 20%;
+    height: 70%;
+    border-radius: 1rem;
+    background-color: var(--cor-vermelho);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.leia-mais a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.leia-mais-btn h4 {
+    font-size: 1.3rem;
+}
+
+.leia-mais :hover {
+    background-color: red;
+    width: 22%;
+    height: 80%;
+    font-size: 1.5rem;
+}
+
+.leia-mais-btn :hover {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 769px) {
+
+    .titulo {
+        height: 10rem;
+    }
+    
+}
+
+@media screen and (max-width: 1220px) {
+    .leia-mais-btn {
+        width: 40%;
+    }
+
+    .leia-mais-btn h4 {
+        font-size: 1rem;
+    }
+
+    .leia-mais :hover {
+        background-color: red;
+        width: 55%;
+        height: 85%;
+        font-size: 1.5rem;
+    }
+    
+    .leia-mais-btn :hover {
+        font-size: 1.3rem;
+        color: whitesmoke;
+        width: 1300%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

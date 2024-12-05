@@ -21,7 +21,7 @@ function aplicarmodoNoturno() {
     dropdowns.style.background = "#8B0000";
     dropdownM.style.background = "#8B0000";
     titulo.style.color = "white";
-    calculadora.src = "./imgHome/calculadoraEscura.jpg"
+    calculadora.src = "./imgHome/calculadoraEscura.PNG"
     moreNews.style.background = "#8B0000";
     tituloCalendar.style.color = "white";
     linha.style.borderBottom = "0.150rem solid white";
