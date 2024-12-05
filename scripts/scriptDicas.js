@@ -35,7 +35,7 @@ function aplicarmodoNoturno() {
 
     linha.style.borderBottom = "0.150rem solid white";
     paiTitle.style.color = "white";
-    seta.src = "../imgDicas/seta-escuro.png";
+    seta.src = "../imgDicas/seta-direita-branca.png";
 
     tips.forEach((tip) => {
         tip.style.background = "#111111";

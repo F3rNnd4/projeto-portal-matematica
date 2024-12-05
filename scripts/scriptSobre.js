@@ -25,7 +25,7 @@ function aplicarmodoNoturno() {
     titulo.style.color = "#ffffff";
     card1.style.background = "#111111";
     card2.style.background = "#111111";
-    seta.src = "../imgDicas/seta-escuro.png";
+    seta.src = "../imgDicas/seta-direita-branca.png";
 }
 
 // Função para remover o modo noturno

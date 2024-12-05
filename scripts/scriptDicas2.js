@@ -19,7 +19,8 @@ let modoNoturno = localStorage.getItem("modoNoturno") === "true";
 function aplicarmodoNoturno() {
     document.body.style.background = "#2F2F2F";
     document.body.style.color = "white";
-    icone.src = "../imgHeader/diurno.png";
+    seta.src = "../imgDicas/seta-esquerda-branca.png";
+
     header.style.background = "#8B0000";
     dropdowns.style.background = "#8B0000";
     dropdownM.style.background = "#8B0000";
