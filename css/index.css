@@ -80,8 +80,9 @@ h5 {
 }
 
 .paiCalendario {
-    width: 100%;
-    height: 40rem;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 40px;
 }
 
 .tituloCalendario {
