@@ -18,7 +18,7 @@ let modoNoturno = localStorage.getItem("modoNoturno") === "true";
 function aplicarmodoNoturno() {
     document.body.style.background = "#2F2F2F";
     document.body.style.color = "white";
-    icone.src = "../imgHeader/diurno.png";
+    icone.src = "../imgHeader/seta-direita-branca.png";
     icone.style.height = "4rem";
     header.style.background = "#8B0000";
     dropdowns.forEach((dropdown) => (dropdown.style.background = "#8B0000"));
@@ -30,7 +30,7 @@ function aplicarmodoNoturno() {
     card4.style.background = "#111111";
     card5.style.background = "#111111";
     card6.style.background = "#111111";
-    seta.src = "../imgDicas/seta-escuro2.png"
+    seta.src = "../imgDicas/seta-esquerda-branca.png";
 }
 
 // Função para remover o modo noturno

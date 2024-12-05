@@ -24,10 +24,12 @@ body {
     color: #e30613;
 }
 
+.pai {
+    height: 100%;
+}
 
 .container {
     width: 100%;
-    padding: 0 20px;
 }
 
 
