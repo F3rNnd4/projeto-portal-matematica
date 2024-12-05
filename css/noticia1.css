@@ -79,7 +79,7 @@ h3 {
     height: 2rem;
     display: flex;
     justify-content: flex-end;
-    align-items: end    ;
+    align-items: end;
     margin-top: 0;
     margin-bottom: 2rem;
 }
@@ -176,7 +176,7 @@ h3 {
     .titulo {
         height: 10rem;
     }
-    
+
 }
 
 @media screen and (max-width: 1220px) {
@@ -194,7 +194,7 @@ h3 {
         height: 85%;
         font-size: 1.5rem;
     }
-    
+
     .leia-mais-btn :hover {
         font-size: 1.3rem;
         color: whitesmoke;

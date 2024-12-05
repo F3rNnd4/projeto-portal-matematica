@@ -22,7 +22,7 @@ function aplicarmodoNoturno() {
     icone.src = "../imgHeader/diurno.png";
     header.style.background = "#8B0000";
     dropdowns.style.background = "#8B0000";
-    dropdownM.style.background = "#8B0000";    
+    dropdownM.style.background = "#8B0000";
     drop.style.background = "#8B0000";
     dropM.style.background = "#8B0000";
 
@@ -74,9 +74,9 @@ function removermodoNoturno() {
             element.style.color = "black";
         });
     });
-        btnvideo.style.background = "";
-        btnvideo2.style.background = "";
-        btnvideo3.style.background = "";
+    btnvideo.style.background = "";
+    btnvideo2.style.background = "";
+    btnvideo3.style.background = "";
 }
 
 // Verifica o estado do modo noturno ao carregar/recarregar a página

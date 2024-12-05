@@ -14,7 +14,7 @@
 .header {
     margin: 2rem;
     width: 95%;
-    height: 5rem;   
+    height: 5rem;
     display: flex;
     flex-direction: row;
 }
@@ -37,7 +37,7 @@
     align-items: center;
 }
 
-.linha  {
+.linha {
     width: 80%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
 
@@ -166,7 +166,7 @@ a {
 
 
 
-@media  screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
 
     .header {
         display: flex;
@@ -176,24 +176,24 @@ a {
         text-align: center;
         margin: 0;
     }
-    
+
     .pailinha {
         width: 100%;
     }
-    
+
     .linha {
         width: 100%;
         margin: 1rem;
         margin-right: 0;
     }
-    
+
     .filho {
-    display: none;
+        display: none;
     }
-    
+
     .pai-title {
         margin-left: 0;
         margin-right: 0;
     }
-    
-}    
+
+}

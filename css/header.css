@@ -8,7 +8,7 @@
 
 :root {
     --cor-vermelho: #E30613;
-    --cor-branco: white; 
+    --cor-branco: white;
 }
 
 .paiHeader {
@@ -24,7 +24,7 @@
     width: 20%;
     height: 100%;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -133,11 +133,11 @@
     justify-content: flex-end;
 }
 
-.iconesFilho { 
+.iconesFilho {
     width: 20%;
     height: 100%;
     display: flex;
-    gap: 2rem;  
+    gap: 2rem;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 3rem;
@@ -162,8 +162,8 @@
     display: flex;
     width: 40%;
     height: auto;
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -180,7 +180,7 @@
 
 @media screen and (max-width: 768px) {
 
-    .paiHeader{
+    .paiHeader {
         width: 100%;
         margin-top: 0;
         gap: 0;
@@ -188,7 +188,7 @@
         margin-bottom: 2rem;
     }
 
-    .navegation{
+    .navegation {
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -218,7 +218,7 @@
     .iconeSenai {
         margin-right: 1rem;
     }
-    
+
 
 }
 
@@ -228,7 +228,7 @@
         gap: 7rem;
         margin-left: 5rem;
     }
-    
+
     .iconesDiv {
         gap: 2rem;
         margin-right: 0.3rem;
@@ -238,4 +238,3 @@
         margin-right: 1rem;
     }
 }
-

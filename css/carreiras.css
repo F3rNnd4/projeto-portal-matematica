@@ -5,7 +5,7 @@ body {
 .header {
     margin: 2rem;
     width: 95%;
-    height: 5rem;   
+    height: 5rem;
     display: flex;
     flex-direction: row;
 }
@@ -29,14 +29,15 @@ body {
     align-items: center;
 }
 
-.linha  {
+.linha {
     width: 80%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
 
 }
 
 .filho {
-    color: var(--cor-vermelho);    height: 100%;
+    color: var(--cor-vermelho);
+    height: 100%;
     width: 5%;
     display: flex;
     justify-content: center;
@@ -81,16 +82,16 @@ body {
 }
 
 .text2-analista {
-        color: black;
-        display: flex;
-        justify-content: center;
-        font-size: 1.2rem;
-        text-align: justify;
-        margin-left: 100px;
-        margin-right: 100px;
-        padding-top: 2rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 2rem;
 }
-    
+
 
 .analista-button {
     background-color: #e30613;
@@ -176,7 +177,7 @@ body {
 }
 
 @media (max-width: 862px) {
-   
+
 
     .carreira-img img {
         width: 40rem;
@@ -190,22 +191,22 @@ body {
     .main-analista {
         width: 100%;
         height: auto;
-        padding: 10px; 
-        box-sizing: border-box; 
+        padding: 10px;
+        box-sizing: border-box;
     }
 
 
     .text2-analista {
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 14px; 
-        word-wrap: break-word; 
+        font-size: 14px;
+        word-wrap: break-word;
     }
 
-    
+
 }
 
-@media  screen and (max-width: 769px) {
+@media screen and (max-width: 769px) {
 
     .header {
         display: flex;
@@ -214,34 +215,34 @@ body {
         align-items: center;
         text-align: center;
     }
-    
+
     .pailinha {
         width: 100%;
     }
-    
+
     .linha {
         width: 100%;
         margin: 1rem;
         margin-right: 0;
     }
-    
+
     .filho {
         display: none;
     }
-    
+
     .pai-title {
         margin-left: 0;
         margin-right: 0;
     }
-}    
+}
 
 
 @media (max-width: 575px) {
-   
+
 
     .carreira-img img {
         width: 100%;
-    
+
     }
 
     .main-analista {
@@ -254,7 +255,7 @@ body {
     .carreira-img img {
         width: 100%;
         height: 5rem;
-        
+
     }
 
     .text2-analista {
@@ -264,6 +265,7 @@ body {
         word-wrap: break-word;
     }
 }
+
 @media (max-width: 854px) {
     .main-analista {
         width: 100%;
@@ -274,7 +276,7 @@ body {
 
     .carreira-img img {
         width: 100%;
-       
+
     }
 
     .text2-analista {
@@ -288,14 +290,14 @@ body {
 @media (max-width: 600px) {
     .main-analista {
         width: 100%;
-    
+
         padding: 10px;
         box-sizing: border-box;
     }
 
     .carreira-img img {
         width: 100%;
-      
+
     }
 
     .text2-analista {
@@ -309,14 +311,14 @@ body {
 @media (max-width: 400px) {
     .main-analista {
         width: 100%;
-       
+
         padding: 5px;
         box-sizing: border-box;
     }
 
     .carreira-img img {
         width: 100%;
-      
+
     }
 
     .text2-analista {
@@ -338,7 +340,7 @@ body {
     .carreira-img img {
         width: 100%;
         height: 5rem;
-        
+
     }
 
     .text2-analista {
@@ -349,7 +351,7 @@ body {
     }
 }
 
-    
+
 
 @media (max-width: 435px) {
     .main-analista {
@@ -371,7 +373,8 @@ body {
         word-wrap: break-word;
     }
 
-    .analista-button, .analista-button12 {
+    .analista-button,
+    .analista-button12 {
         width: 100%;
         font-size: 14px;
         padding: 10px;
@@ -398,7 +401,8 @@ body {
         word-wrap: break-word;
     }
 
-    .analista-button, .analista-button12 {
+    .analista-button,
+    .analista-button12 {
         width: 100%;
         font-size: 12px;
         padding: 8px;

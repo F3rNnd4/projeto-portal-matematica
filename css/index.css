@@ -31,10 +31,10 @@
 }
 
 .noticias {
-        margin-bottom: 3rem;
-        margin-top: 4rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 
 }
 
@@ -103,7 +103,7 @@ h5 {
     align-items: center;
 }
 
-.linha  {
+.linha {
     color: var(--cor-vermelho);
     width: 90%;
     border-bottom: var(--cor-vermelho) 0.150rem solid;
@@ -126,21 +126,21 @@ h5 {
     display: none;
 }
 
-@media screen and (max-width: 769px ) {
+@media screen and (max-width: 769px) {
 
 
-.aviso {
-    height: 3rem;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+    .aviso {
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
-.imagem {
-    height: 40rem;
-}
+    .imagem {
+        height: 40rem;
+    }
 
     .tituloCalendar {
         font-size: 1.8rem;
@@ -169,7 +169,7 @@ h5 {
 
 }
 
-@media screen and (min-width: 770px ) and (max-width: 1900px) {
+@media screen and (min-width: 770px) and (max-width: 1900px) {
     .imagem {
         height: 40rem;
     }
